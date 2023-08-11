@@ -1,0 +1,320 @@
+1
+00:00:21,667 --> 00:00:24,379
+Let's first get started and our index at
+HTML
+
+2
+00:00:28,910 --> 00:00:35,764
+And let's go ahead and add the adventuresOf
+the code Works Crusader here.
+
+3
+00:00:48,646 --> 00:00:56,316
+The next thing we need to take care of is we
+don't know longer going to be working with
+this intro.jsWe need to create another file
+here.
+
+4
+00:00:57,879 --> 00:01:01,042
+And we're going to name this file our
+main.js
+
+5
+00:01:07,290 --> 00:01:14,843
+I'm going to want to get rid of this intro
+cuz we're going to actually create a whole
+new file for all the JavaScript we're going
+to have for the adventures of the codework
+Crusader
+
+6
+00:01:15,281 --> 00:01:22,344
+So let's do the same thing we did earlier
+with the intro let's just log hello from
+main.js here
+
+7
+00:01:24,903 --> 00:01:28,293
+And let's make sure we actually get that
+loaded up onto our screen
+
+8
+00:01:34,881 --> 00:01:40,502
+Dang itOh Lord. Stop it.
+
+9
+00:01:47,755 --> 00:01:54,295
+Got to keep remembering f11Fabriccons I
+don't care about favicons.
+
+10
+00:01:57,362 --> 00:02:00,746
+So it's refresh this page and we actually
+get that hello from main.js
+
+11
+00:02:01,340 --> 00:02:06,398
+So at this point we know that our JavaScript
+is linked up with our web application or Dom
+
+12
+00:02:15,910 --> 00:02:20,712
+So let's now get rid of this hello world
+header and we'll start adding some of the
+items we
+
+13
+00:02:20,712 --> 00:02:27,225
+need in there we're just going to kind of
+add them in like our old low Fidelity
+mockLike we made last.
+
+14
+00:02:32,704 --> 00:02:38,380
+So I'm going to start by kind of Destruction
+is almost like our low Fidelity mock from
+our figma lecture
+
+15
+00:02:39,969 --> 00:02:47,548
+And just get a lot of the items on the
+screen that I want to work withAnd just get
+the functionality this application working
+first and then at the end we'll.
+
+16
+00:02:47,548 --> 00:02:51,823
+go ahead and style it up to actually make it
+look like that final product
+
+17
+00:02:55,964 --> 00:02:58,564
+So let's head back to our index.html
+
+18
+00:03:49,477 --> 00:03:57,100
+Okay yeah I'll sing that about replacing
+that fabric on butI won't worry about it for
+now it doesn't matter.
+
+19
+00:03:59,666 --> 00:04:04,720
+So let's go ahead and just delete this H1
+here we don't need that guy
+
+20
+00:04:08,859 --> 00:04:11,150
+We'll go ahead and add in our
+
+21
+00:04:14,506 --> 00:04:17,434
+Oh man I didn't do it the way I would
+normally would over here
+
+22
+00:04:27,163 --> 00:04:32,456
+So I'll go ahead and start with my mainI
+won't be using a header tag here.
+
+23
+00:04:33,883 --> 00:04:39,129
+Just because of the structure of this
+application and then I'm going to start with
+a section tag
+
+24
+00:04:42,697 --> 00:04:47,952
+And then in that section tag we're going to
+make sure weMake it a container fluid.
+
+25
+00:04:58,728 --> 00:05:05,573
+And now I want to just quickly set up well
+dang it get too far into styling
+
+26
+00:05:09,391 --> 00:05:13,793
+I'll be backWell now let me give you one
+thing oh my goodness.
+
+27
+00:05:23,579 --> 00:05:29,108
+I'm going to quit create a quick row here
+cuz I need somewhere to put the two health
+
+28
+00:05:29,108 --> 00:05:34,637
+bars and then I'll do a couple call six here
+so we're going to do two call six
+
+29
+00:05:35,217 --> 00:05:39,823
+I'm home I'm talking like a spazSo I'm going
+to make two column sixes here.
+
+30
+00:05:40,613 --> 00:05:45,241
+And we can do that by doing call Dash 6 and
+we can just do times two
+
+31
+00:05:46,007 --> 00:05:48,909
+And this first call is going to represent
+the hero
+
+32
+00:05:55,171 --> 00:05:57,880
+And this next call six is going to represent
+the villain
+
+33
+00:06:05,447 --> 00:06:12,441
+And we're going to keep this simple for nowI
+want to create some sort of.
+
+34
+00:06:14,830 --> 00:06:19,129
+Header for this so I like to create Rose so
+I'm going to do another row here
+
+35
+00:06:20,436 --> 00:06:22,984
+And then I'm going to do a call 12 for now
+
+36
+00:06:25,844 --> 00:06:33,765
+And I just want to create a P tagAnd this is
+going to be my heroes.
+
+37
+00:06:35,128 --> 00:06:39,425
+HealthAnd then we'll start at zero.
+
+38
+00:06:42,527 --> 00:06:48,617
+We can go ahead and just copy thisAnd we'll
+move this down to our villain.
+
+39
+00:06:49,141 --> 00:06:52,680
+Instead of hear yourself we'll just change
+it to villain's health
+
+40
+00:06:56,538 --> 00:06:59,681
+We'll just start at 100 for bothCool.
+
+41
+00:07:16,110 --> 00:07:18,543
+And after this I'm going to want to create a
+button
+
+42
+00:07:21,523 --> 00:07:27,989
+So it's going to be in its own different row
+underneath of it for nowThis is going to be
+a.
+
+43
+00:07:29,707 --> 00:07:36,114
+Call three and let's go ahead and just use
+our button classAnd we will say attack.
+
+44
+00:07:45,428 --> 00:07:53,204
+Our button will just say type buttonWe'll
+just give it a class of B10 BTN. Outline for
+now.
+
+45
+00:08:00,016 --> 00:08:03,469
+Great so let's go check this out at our web
+application see what it looks like
+
+46
+00:08:14,105 --> 00:08:15,318
+He looks really good huh
+
+47
+00:08:31,620 --> 00:08:39,238
+So right now we got ourTwo Health at the top
+and our attack I'm going to go ahead and
+give that top row of some.
+
+48
+00:08:39,416 --> 00:08:47,221
+Padding just so we can get some breathing
+room from the top of the pageSo let's go
+ahead and just give this a.
+
+49
+00:08:47,771 --> 00:08:49,329
+Padding top five for now
+
+50
+00:08:51,768 --> 00:08:56,468
+Let's actually just make this a container as
+well so we can get some of the gutters on
+the side
+
+51
+00:09:03,461 --> 00:09:08,687
+SweetAwesome so this looks a little bit
+easier to work with.
+
+52
+00:09:11,371 --> 00:09:19,226
+I'll do the same thing here I'm just going
+to give this someI'll give it actually a
+little bit of Marge on the top and we'll
+just justify.
+
+53
+00:09:21,648 --> 00:09:23,112
+ContentContent Center as well.
+
+54
+00:09:24,631 --> 00:09:31,493
+I don't actually like the will do outline
+Dart So It Isn't So blending in so muchSo
+great.
+
+55
+00:09:32,364 --> 00:09:39,751
+We have the foundation of how we want this
+project to be started withCuz the idea now
+is I have my health.
+
+56
+00:09:40,471 --> 00:09:44,343
+For my hero in my villain and I also have
+this button to attack
+
+57
+00:09:44,567 --> 00:09:51,000
+So now we need to go into JavaScript
+actually create some variablesOr an object.
+
+58
+00:09:52,060 --> 00:09:59,520
+And then set those variables to actually be
+able to input inside our HTML so inside our
+DomSo let's go try that out.
+
+59
+00:10:01,416 --> 00:10:03,640
+I don't so let's go try that out question
+mark
+
+60
+00:10:07,037 --> 00:10:10,126
+So let's go actually start so let's go
+actually
+
+61
+00:10:13,088 --> 00:10:19,377
+So let's go create those objects in our
+JavaScript and get that scripted into our
+DomSure.
+

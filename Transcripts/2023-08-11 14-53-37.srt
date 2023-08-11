@@ -1,0 +1,243 @@
+1
+00:00:05,797 --> 00:00:09,603
+So now that we have our potion implemented
+in the fashion that we want
+
+2
+00:00:10,320 --> 00:00:16,636
+So now that our potion is implementing
+implemented so now that are potion
+
+3
+00:00:16,636 --> 00:00:22,952
+is implemented in the function in the way
+the function in the
+
+4
+00:00:24,936 --> 00:00:28,680
+So now that our potion is implemented into
+our project
+
+5
+00:00:29,894 --> 00:00:35,074
+In the fashion that we want in the fashion
+what am I supposed to say
+
+6
+00:00:37,910 --> 00:00:42,380
+I'm just going to say it Blaine excuse me
+wow
+
+7
+00:00:45,907 --> 00:00:53,324
+So now that our potion is implemented into
+our project how we want it to be let's go
+ahead and add some extra Flair
+
+8
+00:00:54,717 --> 00:00:59,501
+So when I draw my health now I wanted to
+show some
+
+9
+00:00:59,501 --> 00:01:04,285
+crossbones actually instead of just zero
+when my health is actually zero
+
+10
+00:01:05,448 --> 00:01:09,262
+So how we can do that instead of just having
+equals hero Health here
+
+11
+00:01:10,128 --> 00:01:17,324
+We can open this up using our back takes
+like we talked about earlierAnd this will
+give us access to string interpolation.
+
+12
+00:01:19,443 --> 00:01:25,782
+And inside of thisI'm going to actually
+create this a.
+
+13
+00:01:26,448 --> 00:01:33,712
+Curlies around itAnd add this dollar sign
+now since I've added the curly brackets and
+it's.
+
+14
+00:01:33,712 --> 00:01:39,200
+dollar sign I can also use JavaScript
+functionality within this these curly
+brackets
+
+15
+00:01:40,904 --> 00:01:46,936
+So from here I can say when hero.health is
+greater than zero
+
+16
+00:01:48,741 --> 00:01:52,659
+I'm going to use a ternary to say the first
+
+17
+00:01:58,590 --> 00:02:04,650
+So I'm going to use a ternary to say if
+hero.health is greater than zero if that is
+true
+
+18
+00:02:06,317 --> 00:02:14,123
+I want you to just assign hero.health or
+excuse me that's the only wayHero.health
+here.
+
+19
+00:02:14,554 --> 00:02:22,418
+But we'll use this colon here to separate if
+that's not true let's actually use a skull
+and crossbone again
+
+20
+00:02:25,028 --> 00:02:26,419
+And we'll put three of them there
+
+21
+00:02:31,766 --> 00:02:38,320
+So what's going on here with this ternaryIs
+this is going to be my condition.
+
+22
+00:02:43,840 --> 00:02:49,559
+Just like in a conditional for an if
+statement we provide a condition so it's
+actually two
+
+23
+00:02:54,228 --> 00:03:01,317
+YeahMy if statement is is if hero DOT health
+is greater than zero.
+
+24
+00:03:01,833 --> 00:03:07,160
+And then we have this ternaryAnd this is
+due.
+
+25
+00:03:10,851 --> 00:03:17,005
+She will let's give a one cuz I do want to
+give a little space hereFor this and we'll
+say.
+
+26
+00:03:18,198 --> 00:03:23,107
+If it's zero doIf true.
+
+27
+00:03:25,731 --> 00:03:31,157
+Then we'll add someElse.
+
+28
+00:03:32,962 --> 00:03:33,880
+If Falls
+
+29
+00:03:40,059 --> 00:03:45,940
+So essentially ifThe heroes health is
+greater than zero.
+
+30
+00:03:55,228 --> 00:04:00,614
+Return just return Heroes healthElse.
+
+31
+00:04:01,534 --> 00:04:03,368
+Return triple crossbones
+
+32
+00:04:12,887 --> 00:04:20,484
+And that is essentially what a ternary is
+cuz the other use case of a ternaries you
+always want to return something out of it
+
+33
+00:04:20,983 --> 00:04:28,632
+And that's why we actually didn't use a
+ternary down hereWe use the double Anderson
+to just return.
+
+34
+00:04:29,384 --> 00:04:37,137
+Essentially if this is trueBecause right
+here I didn't have anything to return if it
+was false so we would use a double Amber
+stands for that.
+
+35
+00:04:49,074 --> 00:04:56,101
+So let's go down and do the same exact thing
+for this villain's healthUnless go ahead and
+copy it.
+
+36
+00:04:58,460 --> 00:05:05,115
+And let's just change his heroWe'll just
+highlight hero double click it hit that
+control d.
+
+37
+00:05:05,691 --> 00:05:07,828
+And we'll just type in them there as well
+
+38
+00:05:14,051 --> 00:05:17,624
+AwesomeSo at this point let's go to our web
+application.
+
+39
+00:05:23,124 --> 00:05:30,924
+UnlessAnd let's see if we can get those
+crossbones up into the sweet I found a
+health potion.
+
+40
+00:05:35,564 --> 00:05:43,134
+So if you don't actually want to go through
+this right now like if you're trying to test
+this out what you can do is go to your
+devtools here
+
+41
+00:05:44,803 --> 00:05:50,775
+And I can actually say hero.healthEquals.
+Zero.
+
+42
+00:05:54,138 --> 00:06:00,395
+So the next time I attack it's going to say
+he's dead awesome I get my triple crossbones
+as well
+
+43
+00:06:01,235 --> 00:06:05,635
+I found a health potionAnd I can't drink if
+you're dead sweet.
+
+44
+00:06:07,821 --> 00:06:14,325
+So let's also check the same for my
+villainSo we can actually dive into.
+
+45
+00:06:15,139 --> 00:06:21,032
+That villain object and we'll just say
+villain's Health equals one so we can see it
+happen live
+
+46
+00:06:22,551 --> 00:06:29,605
+Awesome we vanquished themTook a little bit
+of damage but now we can see the villain
+health is indeed dead as well perfect.
+

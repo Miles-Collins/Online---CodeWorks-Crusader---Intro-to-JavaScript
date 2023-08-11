@@ -1,0 +1,572 @@
+1
+00:00:04,900 --> 00:00:10,330
+So let's not add some functionality to our
+JavaScript to actually show these Health
+pools
+
+2
+00:00:12,414 --> 00:00:17,383
+Be what they're supposed to be so my hero
+Health should be 100 in my Dillon Health
+should be 150
+
+3
+00:00:17,814 --> 00:00:24,165
+So we'll see how to kind of get those drawn
+onto the page and that's awesome make it so
+every time I click this attack button
+
+4
+00:00:25,221 --> 00:00:28,271
+It is reactive and responsive to our attack
+
+5
+00:00:33,706 --> 00:00:39,898
+So from here the first step I want to take
+is I'm going to go ahead and not make this
+100 we'll put a span here
+
+6
+00:00:42,233 --> 00:00:45,768
+When I actually put 100 back inAnd let's add
+an ID.
+
+7
+00:00:48,285 --> 00:00:54,314
+And this ID is going to be what we're going
+to Target in our JavaScript so I need to
+make sure I have something in here
+
+8
+00:00:59,381 --> 00:01:06,877
+To be a placeholder when the page loadsBut I
+also need this ID. To be able to.
+
+9
+00:01:08,605 --> 00:01:13,381
+Access it later in JavaScript so I might
+just repeat myself there
+
+10
+00:01:15,819 --> 00:01:20,348
+So first things first we got that Span in
+there with that hero health
+
+11
+00:01:20,348 --> 00:01:24,876
+and that span gives us the ability to wrap
+that number within a
+
+12
+00:01:26,299 --> 00:01:29,728
+Element selector an element so we can put
+that ID on there
+
+13
+00:01:41,538 --> 00:01:43,731
+So let's head over to our main.js
+
+14
+00:02:06,113 --> 00:02:13,799
+And let's go ahead and add a line hereSo
+we'll say const hero Elam here.
+
+15
+00:02:14,031 --> 00:02:19,071
+Equals document so we're going to Target our
+DomGet element by ID.
+
+16
+00:02:21,542 --> 00:02:25,153
+And we're going to choose that ID we had
+earlier so is hero health
+
+17
+00:02:27,550 --> 00:02:32,059
+So what's your name I'm going to rename this
+hero health elim
+
+18
+00:02:32,500 --> 00:02:40,213
+Cuz this is going to be the entire element
+so let's go ahead and console logHero
+healthy I'm here.
+
+19
+00:02:40,406 --> 00:02:43,514
+So let's save thisLet's go ahead and label
+this really quick.
+
+20
+00:02:51,337 --> 00:02:52,874
+Save this go to our Dom
+
+21
+00:02:56,315 --> 00:03:02,220
+From here when I click attack we can see
+that I'm actually targeting that specific
+span
+
+22
+00:03:02,396 --> 00:03:09,032
+Whenever I'm creating that Dom from whenever
+we're creating that variable from that get
+element by ID
+
+23
+00:03:09,676 --> 00:03:13,983
+So that's perfect that's exactly what I want
+to select because I want to be able to
+
+24
+00:03:13,983 --> 00:03:18,291
+change this number in here from 100 to
+whatever the new number is when they get
+attacked
+
+25
+00:03:21,973 --> 00:03:29,326
+So now I'm going to do that is I'm actually
+going to say hero Health dot ElmThat enter
+text.
+
+26
+00:03:31,080 --> 00:03:35,657
+And we just want this to equalThe new hero
+health.
+
+27
+00:03:38,696 --> 00:03:44,556
+So let's save thatLet's refresh.
+
+28
+00:03:45,373 --> 00:03:52,943
+So before I hit this attack buttonWhen I hit
+it we should see this hero Health go down by
+5:00 every time I click.
+
+29
+00:03:54,430 --> 00:03:58,796
+Due to that selector so let's click
+itAwesome.
+
+30
+00:03:59,769 --> 00:04:04,714
+And we can see over here every time I'm
+clicking it we get a new span with that
+additional 85
+
+31
+00:04:05,577 --> 00:04:10,961
+And that's only happening because of we're
+inserting this 85 right here into that span
+
+32
+00:04:14,637 --> 00:04:17,434
+So perfect now let's do the same thing for
+our villain's health
+
+33
+00:04:25,642 --> 00:04:31,441
+So let's go ahead and concept out as well
+we'll say Conn's villain Health Elam
+
+34
+00:04:32,895 --> 00:04:38,515
+Equals document get element by IDAnd we're
+going to Target that villain Health as well.
+
+35
+00:04:40,279 --> 00:04:42,958
+And this is going to give us accessWho's
+going to give us access to that span.
+
+36
+00:04:45,030 --> 00:04:51,124
+We're going to do the exact same thing as
+well so we'll see villain healthIntertext.
+
+37
+00:04:51,731 --> 00:04:56,370
+Equals our new villain health because at
+this point we subtracted it by 10
+
+38
+00:05:04,477 --> 00:05:11,714
+So if we come back here we should see every
+time we click thisWe're actually making
+those changes on the screen.
+
+39
+00:05:16,705 --> 00:05:18,768
+The right now every time we click
+
+40
+00:05:20,918 --> 00:05:25,240
+It goes well actually we won't talk about
+that yet we'll add that later
+
+41
+00:06:58,451 --> 00:07:04,561
+Before we continue to our next portion of
+ourActually no.
+
+42
+00:07:05,322 --> 00:07:11,935
+I'll probably just create everything
+outYeah.
+
+43
+00:07:12,975 --> 00:07:14,993
+I mean there's not a whole lot to be honest
+
+44
+00:07:46,773 --> 00:07:53,852
+I mean Vocal Point cue that I am continuing
+ZachAnd three.
+
+45
+00:07:54,539 --> 00:07:58,061
+TwoWhat.
+
+46
+00:08:09,131 --> 00:08:12,233
+There's one thing I want to point out though
+when we continue to attack
+
+47
+00:08:14,436 --> 00:08:18,126
+We can actually go hit zero and go negative
+
+48
+00:08:18,442 --> 00:08:26,057
+Let's make sure we add some functionality
+and make it so we if you hit zero we can't
+go below zero and will you actually just win
+
+49
+00:08:35,443 --> 00:08:40,440
+So for thatWe can do it first with our
+villains Health here.
+
+50
+00:08:41,496 --> 00:08:44,131
+We can say we want to make this conditional
+
+51
+00:08:44,643 --> 00:08:51,983
+So we want to make essentially we want to
+return so stop this entire everything after
+this line
+
+52
+00:08:52,643 --> 00:08:56,342
+If the villain's health is less than or
+equal to zero
+
+53
+00:08:59,334 --> 00:09:02,988
+Also want to make sure if my health is less
+than or equal to 0
+
+54
+00:09:04,161 --> 00:09:09,041
+I am a defeated as well so I don't want to
+be able to continue
+
+55
+00:09:13,335 --> 00:09:19,814
+I don't want to be able to continue the game
+on even if I don't have it so it's actually
+get rid of this
+
+56
+00:09:20,308 --> 00:09:26,915
+I'm actually going to do thatI'll add that
+in later. So villain health is.
+
+57
+00:09:28,026 --> 00:09:34,908
+Great or less than or equal to zeroLet's go
+ahead and just return straight out of this
+function.
+
+58
+00:09:35,909 --> 00:09:40,485
+Cuz our return is just going to be a hard
+stop
+
+59
+00:09:46,597 --> 00:09:47,874
+And I'll show you what I mean
+
+60
+00:09:55,979 --> 00:10:01,428
+So every time ISo every time I hit attack.
+
+61
+00:10:02,324 --> 00:10:05,188
+We get all the console log so let me clear
+it
+
+62
+00:10:06,813 --> 00:10:12,232
+So I hit attack now you will see his health
+is at zero and we get our about to attack
+
+63
+00:10:12,232 --> 00:10:17,652
+villain and all that but because we put that
+conditional statement there we should only
+get the hero Health now
+
+64
+00:10:18,203 --> 00:10:24,131
+Because after that line so it's going to do
+all the hero stuff but it's going to hit
+that conditional
+
+65
+00:10:24,677 --> 00:10:26,939
+And it's actually going to be zero at that
+point
+
+66
+00:10:30,391 --> 00:10:33,562
+So I can show that off as well using a
+debugger really quick
+
+67
+00:10:35,752 --> 00:10:42,960
+This is a great tool to use as well I'm a
+huge debugger fan I use the all the time
+whenever you're trying to figure out
+
+68
+00:10:42,960 --> 00:10:50,167
+something's wrong with your code and all
+this is this is the line I want it to start
+debugging on once I have my console open
+
+69
+00:10:53,485 --> 00:10:56,597
+So if I have it open right away as soon as I
+hit this function
+
+70
+00:11:07,699 --> 00:11:13,051
+Didn't workI didn't save.
+
+71
+00:11:22,332 --> 00:11:29,398
+So as soon as I hit this button it's
+actually going to pop this debugger upAnd
+it's going to go through all the code but
+we'll just.
+
+72
+00:11:31,305 --> 00:11:37,008
+Go through it for now and let's actually
+close our console cuz I don't want to go
+through the debugger yet
+
+73
+00:11:39,815 --> 00:11:45,388
+I want to go through it this moment so right
+now we're at 30 health and 10 villain health
+so I should go through this
+
+74
+00:11:46,807 --> 00:11:52,023
+Instance is villain Health less than zero
+nope so we can actually use this step over
+
+75
+00:11:52,213 --> 00:11:56,929
+And it's going to hit this conditional it's
+going to step over and it's going to make
+those calculations again
+
+76
+00:11:59,088 --> 00:12:00,943
+But now that it's at zero health
+
+77
+00:12:01,648 --> 00:12:09,339
+It's going to hit this debugger it when it
+took the five Health from our hero it's
+going to say zero less than or equal to zero
+oh it is
+
+78
+00:12:11,930 --> 00:12:17,989
+So step into that it's actually going to hit
+this returnAnd then it's just going to exit
+out of it.
+
+79
+00:12:21,315 --> 00:12:28,251
+So I'm still able to hit it but all the code
+after this returnIt just skips because that
+conditional is true.
+
+80
+00:12:45,027 --> 00:12:49,088
+So we will want to do the same thing with
+Our Hero's Health as well
+
+81
+00:12:50,094 --> 00:12:57,977
+Cuz we won't want to allow him to continue
+attacking eitherSo let's put the same thing
+we'll say if.
+
+82
+00:12:59,593 --> 00:13:01,811
+Our hero health is less than or equal to
+zero
+
+83
+00:13:06,071 --> 00:13:12,277
+We want to returnBut this time I'm going to
+do something a little differently actually
+going to return an alert.
+
+84
+00:13:13,701 --> 00:13:19,242
+This is going to be a cool window alert and
+we're just going to say theCode Works
+crusader.
+
+85
+00:13:22,465 --> 00:13:24,448
+IsDead.
+
+86
+00:13:26,488 --> 00:13:33,278
+And let's show you how that will work as
+well so I'll actually make my house zero or
+go down quicker so I can go to zero first
+
+87
+00:13:35,361 --> 00:13:40,923
+Let's refresh thisAnd when I hit attack
+here.
+
+88
+00:13:41,746 --> 00:13:44,335
+You can see the code Works Crusader is dead
+
+89
+00:13:45,702 --> 00:13:50,380
+So I can no longer attack this is a not
+allowing me to attack any longer
+
+90
+00:13:57,895 --> 00:14:03,797
+But let's make sure everything is working
+properly so if I doIf I do expect a five
+save this.
+
+91
+00:14:06,573 --> 00:14:13,570
+Go back to our application and let's just
+check to make sure everything's working the
+way we want so villain's health is at zero
+
+92
+00:14:14,130 --> 00:14:20,189
+But we notice when we keep attacking Our
+Heroes Health continues to go down even
+though
+
+93
+00:14:21,713 --> 00:14:26,745
+The villain is technically defeated so he
+shouldn't be able to continue attacking us
+even when we are attacking
+
+94
+00:14:27,684 --> 00:14:32,097
+So somewhere in our functionality we need to
+add a or statement
+
+95
+00:14:32,757 --> 00:14:36,446
+To make it so we stop attacking each other
+all together
+
+96
+00:15:22,556 --> 00:15:25,663
+So we'll add a couple things here we'll
+actually add an order here
+
+97
+00:15:27,030 --> 00:15:31,407
+And we'll say if the hero health is less
+than or equal to zero as well
+
+98
+00:15:33,357 --> 00:15:38,967
+The main thing is we want to return
+something hereSo we want to say if the boss
+is health.
+
+99
+00:15:42,843 --> 00:15:46,179
+WowExcuse me the villain's health.
+
+100
+00:15:48,761 --> 00:15:53,979
+So we want to return something if the
+villains
+
+101
+00:15:53,979 --> 00:16:01,977
+health is 0 or below so we'll say
+ifVillain's health.
+
+102
+00:16:02,553 --> 00:16:07,638
+Is less than or equal to 0 let's do
+something similar like that alert that we
+had above
+
+103
+00:16:12,825 --> 00:16:20,587
+I want to returnAlert. And we'll say the
+code works.
+
+104
+00:16:21,486 --> 00:16:27,380
+Crusader Vanquish the coding virus that's
+going to be the name of our villain here
+
+105
+00:16:28,052 --> 00:16:32,062
+No reason to there's no reason to beat a
+dead horse you know
+
+106
+00:16:32,265 --> 00:16:37,998
+He's already dead we don't want to keep
+attacking them that's kind of rude and mean
+you kind of prove a point
+
+107
+00:16:39,644 --> 00:16:46,098
+So let's say this and head back to our
+applicationAnd let's just test this to make
+sure it works the way we want.
+
+108
+00:16:47,613 --> 00:16:54,673
+So we are going to beat them so it's
+attackAnd we get that pop alert to not allow
+us to continue tacking.
+
+109
+00:16:55,336 --> 00:16:58,419
+And neither one of our health continue to go
+down
+

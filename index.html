@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS - CORE -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Intro to JavaScript, Adventures of the CodeWorks Crusader</title>
+</head>
+<body>
+
+<main>
+  <section class="container-fluid">
+    <div class="row justify-content-between align-items-center the-battlefield">
+      <!-- SECTION Hero -->
+      <div class="col-5 text-center height-75">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <p class="fs-3 header-text">CodeWorks Crusaders Health: <span id="heroHealth">100</span></p>
+          </div>
+        </div>
+        <img id="codeworksCrusader" title="The CodeWorks Crusader" class="height-75" src="assets/Pixel-Hero.png" alt="CodeWorks Crusader image">
+        <p class="fs-1 light-text">The CodeWorks Crusader</p>
+      </div>
+      <!-- SECTION Buttons -->
+      <div class="col-2">
+        <button onclick="attack()" type="button" class="btn">
+          <img class="img-fluid btn-custom" src="assets/Attack.png" alt="Attack!" title="Attack Button!">
+          <p class="text-uppercase danger-text">Attack!!</p>
+        </button>
+        <button onclick="drinkPotion()" type="button" class="btn">
+          <img class="img-fluid btn-custom" src="assets/magic-potion-transparent-png.webp" alt="Drink Potion!" title="Drink Potion Button!">
+          <p class="success-text text-uppercase">Potion</p>
+        </button>
+      </div>
+      <!-- SECTION Villain -->
+      <div class="col-5 text-center height-75">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <p class="fs-3 header-text">Coding Virus Health: <span id="villainHealth">250</span></p>
+          </div>
+        </div>
+        <img id="codingVirus" src="assets/Coding-Virus.png" class="height-75" alt="Coding Virus Boss" title="The Coding Virus">
+        <p class="fs-1 light-text">The Coding Virus</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="main.js" > </script>
+</body>
+</html>

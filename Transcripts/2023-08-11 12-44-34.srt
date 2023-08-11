@@ -1,0 +1,86 @@
+1
+00:00:01,072 --> 00:00:08,689
+Okay dope it workedWe ain't making a
+ternary.
+
+2
+00:00:20,944 --> 00:00:28,696
+Sorry I'm not 100% sure how you can fit this
+inSo instead underneath hero dot help let's
+create a.
+
+3
+00:00:30,807 --> 00:00:34,424
+If true condition so we'll say if
+hero.health
+
+4
+00:00:35,216 --> 00:00:38,810
+Is greater than 100 we're going to use these
+double ampersands
+
+5
+00:00:39,278 --> 00:00:43,684
+And what this is saying is if this condition
+to the left is true
+
+6
+00:00:44,475 --> 00:00:48,747
+Let's go ahead and reassign hero.health to
+equal 100
+
+7
+00:00:52,314 --> 00:00:58,294
+Let's actually wrap this up it's mad at me
+cuz I don't have this in the parentheses so
+sweet
+
+8
+00:00:59,301 --> 00:01:02,068
+At this point let's go ahead and we can just
+get rid of all this
+
+9
+00:01:08,208 --> 00:01:13,709
+We can actually add this and here as well
+because this is just returning alert to this
+point so
+
+10
+00:01:14,937 --> 00:01:21,049
+At this point we make sure we check that
+bull so if hero has potion health or has
+health
+
+11
+00:01:21,049 --> 00:01:27,161
+potion is false we're going to send them
+back this alert essentially this is going to
+be our air
+
+12
+00:01:28,138 --> 00:01:34,504
+Now I'm going to do that then we're going to
+check to see if the hero health isGreater
+than equal to 100.
+
+13
+00:01:35,277 --> 00:01:41,855
+And then we'll check if it's below zero or
+equal and then if all those factors aren't
+true let's go ahead and actually
+
+14
+00:01:41,855 --> 00:01:48,433
+increase the health and set it to 100 if it
+is at 100 and then let's draw the health at
+that point
+
+15
+00:01:51,923 --> 00:01:52,761
+Perfect
+
+16
+00:04:07,768 --> 00:04:10,605
+Oh sorry I stopped meant to stop recording
+

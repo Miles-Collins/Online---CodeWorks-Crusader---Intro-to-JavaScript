@@ -1,0 +1,265 @@
+1
+00:00:13,356 --> 00:00:17,776
+So at this point we have the majority of the
+functionality of this application
+
+2
+00:00:17,776 --> 00:00:22,195
+so I'm going to show off some cool flutter
+you can add since
+
+3
+00:00:22,835 --> 00:00:26,371
+Give it some more of that gamer gamification
+if you will
+
+4
+00:00:29,757 --> 00:00:33,997
+I'll just show off how we can add different
+things even though we might not want to keep
+all of it
+
+5
+00:00:40,156 --> 00:00:44,103
+So it's actually throw another alert here so
+we get our attack here
+
+6
+00:00:46,042 --> 00:00:48,815
+So once we have our hero attack let's say
+
+7
+00:00:52,861 --> 00:01:00,233
+What use are double Ambersons again so we'll
+say if hero attackEquals zero.
+
+8
+00:01:01,977 --> 00:01:09,470
+Let's just returnThis alert here.
+
+9
+00:01:19,395 --> 00:01:20,182
+So anger
+
+10
+00:01:26,638 --> 00:01:31,187
+So far hero attack here is zero let's go
+ahead and return an alert
+
+11
+00:01:31,983 --> 00:01:35,059
+And we'll use our anger Emoji here
+
+12
+00:01:36,414 --> 00:01:41,728
+And we'll say the code Works to say they're
+missed so if he hits for zero
+
+13
+00:01:42,783 --> 00:01:44,729
+Well just essentially say that he missed
+here
+
+14
+00:01:47,089 --> 00:01:54,012
+And it'll pop up this alert the only thing
+with using alerts is they can get kind of
+annoying
+
+15
+00:01:56,560 --> 00:02:01,885
+And let's show that off cuz you could
+probably see what the health potions every
+time an alert comes up
+
+16
+00:02:01,995 --> 00:02:04,973
+You do have to click it away it won't
+continue
+
+17
+00:02:05,907 --> 00:02:13,027
+We'll definitely have more options later on
+the course I'll make this a lot easierI'm
+just trying to get a.
+
+18
+00:02:14,415 --> 00:02:17,123
+One intention I am getting really lucky with
+potions
+
+19
+00:02:27,089 --> 00:02:32,159
+So there we get this the code Works to say
+they're missedUp at the top.
+
+20
+00:02:33,441 --> 00:02:39,923
+And I think our potions is a little broken
+right now we seem to be getting a lot of
+potions
+
+21
+00:02:40,633 --> 00:02:44,650
+But you can see the more we add this is just
+kind of for your own personal projects
+
+22
+00:02:44,650 --> 00:02:48,667
+if you want to add this to your projects
+it's just a cool little things you can do
+
+23
+00:02:52,643 --> 00:02:56,526
+So I don't mind that one but let's go look
+at our potion really quick
+
+24
+00:03:04,800 --> 00:03:07,293
+So we'll go to a role for Health it
+
+25
+00:03:10,044 --> 00:03:16,676
+Oh so right now I have if it's a less than
+eight we need to make that if it's greater
+than eightThere we go that'll fix that.
+
+26
+00:03:17,859 --> 00:03:20,864
+It's just a little things you will notice as
+your bill not your projects
+
+27
+00:03:23,647 --> 00:03:30,409
+For getting how to do greater than or less
+than can make something come across a hard
+or really easy
+
+28
+00:03:37,275 --> 00:03:42,223
+And even for them like my villain here you
+can do cool things
+
+29
+00:03:47,244 --> 00:03:49,479
+Just the same with their villain attack
+
+30
+00:03:59,196 --> 00:04:03,331
+Where you can say ifThe filling.
+
+31
+00:04:03,953 --> 00:04:10,188
+Attack is greater than or equal toWe'll say
+12.
+
+32
+00:04:12,477 --> 00:04:15,090
+We can actually just give an alert as well
+
+33
+00:04:21,625 --> 00:04:27,844
+And we can actually let's use our string
+interpolation as well againI mean say.
+
+34
+00:04:31,301 --> 00:04:36,185
+It's very busy faceCoding virus.
+
+35
+00:04:40,333 --> 00:04:44,690
+Hit us four and then we'llJust for and then
+we'll just string interpolate that boss damn
+or villain attack.
+
+36
+00:04:50,433 --> 00:04:56,727
+And then we'll just say that's a
+criticalBlow. We'll put dizzy in there
+again.
+
+37
+00:04:57,256 --> 00:04:58,844
+Or maybe exploding head
+
+38
+00:05:04,705 --> 00:05:11,456
+So we're saying if he hits us for a big
+chunk of change will pretty much indicate
+that that was a critical attack
+
+39
+00:05:12,303 --> 00:05:14,238
+And we can also have that pop up as well
+
+40
+00:05:22,514 --> 00:05:26,153
+So let's see if we can actually get that
+critical blow to show up
+
+41
+00:05:31,720 --> 00:05:38,893
+Oh no I missedOof we get that the code Works
+hit us for 14 a critical blow nice.
+
+42
+00:05:41,420 --> 00:05:46,196
+Oh and IJust realized a problem with this
+application.
+
+43
+00:05:49,465 --> 00:05:53,471
+Right now I can actually use the potion as
+many times as I want
+
+44
+00:05:55,433 --> 00:06:01,253
+And that's because when I drink my potion
+I'm not sitting that fool back to false
+
+45
+00:06:08,429 --> 00:06:10,612
+So every time I drink a potion
+
+46
+00:06:34,130 --> 00:06:37,786
+I want to increase my healthSet it back 200.
+
+47
+00:06:38,318 --> 00:06:46,155
+I want to draw my health and then before I
+actually end this let's go ahead and get my
+hero and has health potion
+
+48
+00:06:49,226 --> 00:06:55,992
+And let's make that false nowSo now when I
+refresh.
+
+49
+00:06:56,620 --> 00:07:01,284
+I will actually got a potionBut now since I
+got another potion.
+
+50
+00:07:08,714 --> 00:07:11,834
+So I can drink my potion now but if I come
+to drink it again
+
+51
+00:07:12,397 --> 00:07:19,400
+It's going to say I do not have a health
+potion because that bull is now been flipped
+back to falseAwesome.
+
+52
+00:07:30,112 --> 00:07:35,113
+So at this point the main functionality of
+this app is made
+
+53
+00:07:35,776 --> 00:07:40,840
+And I always think it's important to
+actually I'm going to be right back I'm
+going to get some drink
+

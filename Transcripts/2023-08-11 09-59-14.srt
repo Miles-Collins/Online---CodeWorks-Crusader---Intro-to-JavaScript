@@ -1,0 +1,183 @@
+1
+00:00:08,278 --> 00:00:13,498
+So that's going to be what we'll cover for
+the Primitive types before we dive into our
+project
+
+2
+00:00:15,953 --> 00:00:18,922
+And now we'll actually go into making our
+project
+
+3
+00:00:22,224 --> 00:00:27,652
+And today we're going to be building out
+together The Adventures of the code Works
+Crusader
+
+4
+00:00:27,652 --> 00:00:33,081
+and today we're going to be building out the
+adventures of the code Works crusader
+
+5
+00:00:51,405 --> 00:00:53,027
+I'm going to show it off really quick
+
+6
+00:01:24,472 --> 00:01:32,309
+So once this project is finished we'll
+create this interactive game it'sOn where we
+were at.
+
+7
+00:01:32,751 --> 00:01:38,947
+Once we finish this project we're going to
+have this interactive gameA click game I
+want to say click game.
+
+8
+00:01:39,509 --> 00:01:44,077
+After our project is finished we have this
+interactive clicking game so the purpose of
+
+9
+00:01:44,077 --> 00:01:48,645
+this game is we're going to create some
+JavaScript for whenever I click on this
+
+10
+00:01:51,981 --> 00:01:53,083
+What's going on
+
+11
+00:01:59,351 --> 00:02:02,463
+?
+
+12
+00:02:05,401 --> 00:02:10,872
+I typed clear
+
+13
+00:02:10,872 --> 00:02:16,343
+into the
+
+14
+00:02:16,343 --> 00:02:21,814
+wrong spot
+
+15
+00:02:34,866 --> 00:02:38,951
+So once we're finished with the project
+we'll have this interactive clicking game
+
+16
+00:02:48,343 --> 00:02:50,433
+All right one more time let's take it from
+the top
+
+17
+00:02:52,561 --> 00:02:56,612
+After we finish this project we'll have this
+interactive clicking game application
+
+18
+00:02:57,009 --> 00:03:01,848
+And when I select this attack button you'll
+notice both of our health go down and
+
+19
+00:03:01,848 --> 00:03:09,665
+we're going to be building this out using
+JavaScript and connecting that to our
+indexWill also hopefully.
+
+20
+00:03:11,605 --> 00:03:16,933
+If we will give ourselves a random chance to
+actually spawn in a potion to find a potion
+and when
+
+21
+00:03:16,933 --> 00:03:22,262
+we do find that potion we're going to create
+something where we can actually see that
+potion pop up
+
+22
+00:03:22,772 --> 00:03:28,321
+And then we're going to create this button
+here to actually add Health to our pool
+
+23
+00:03:29,231 --> 00:03:34,790
+And right now it's set up on an interval so
+you can see it took a little bit of time so
+let me try to get another potion
+
+24
+00:03:35,674 --> 00:03:41,266
+If I click this right now it's set up on a
+three second intervalAnd then we get that
+Health there.
+
+25
+00:03:46,483 --> 00:03:53,344
+We're also going to show off the get element
+by ID and that's how we're going to input
+these images here
+
+26
+00:03:53,776 --> 00:03:56,238
+I'm going to use a lot of arrays
+
+27
+00:04:02,977 --> 00:04:05,547
+Actually use a race I take that back
+
+28
+00:04:25,583 --> 00:04:30,429
+We're going to mainly create a lot of
+functions it's going to add functionality to
+our web page
+
+29
+00:04:33,485 --> 00:04:36,053
+Yeah I think I already kind of said it
+though didn't I
+
+30
+00:04:54,366 --> 00:05:02,232
+So we'll be incorporating
+
+31
+00:05:02,232 --> 00:05:10,098
+a lot of the
+
+32
+00:05:10,098 --> 00:05:17,964
+information we just
+
+33
+00:05:17,964 --> 00:05:25,830
+went over for
+
+34
+00:05:25,830 --> 00:05:33,696
+our primitive types
+
+35
+00:05:33,696 --> 00:05:41,563
+into this project
+
+36
+00:05:42,121 --> 00:05:49,391
+And I look forward to building this
+alongside you guysI don't like that last
+part.
+
+37
+00:06:00,418 --> 00:06:08,356
+And let's go ahead and get into building out
+the codeworks CrusaderBam Bam Bam.
+

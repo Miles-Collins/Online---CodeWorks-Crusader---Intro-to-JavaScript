@@ -1,0 +1,280 @@
+1
+00:00:07,222 --> 00:00:14,929
+This is one of those instances where you
+canSit here and style a project forever and
+get it to look exactly the way you want.
+
+2
+00:00:18,338 --> 00:00:22,507
+But for now I just want to go over some of
+the things we covered in today's lesson
+
+3
+00:00:24,479 --> 00:00:28,864
+First we started off with individual
+variables for all this and then
+
+4
+00:00:29,353 --> 00:00:33,839
+We decided to actually create an object out
+of those which will work a lot
+
+5
+00:00:33,839 --> 00:00:38,325
+better and make reusable code a lot easier
+so when I want to actually
+
+6
+00:00:40,407 --> 00:00:43,053
+Change individual properties it changes for
+all of them
+
+7
+00:00:46,497 --> 00:00:52,695
+We want to talk too much about this page
+though that's just a little bit of extra
+fluffI guess I shouldn't say that.
+
+8
+00:00:54,008 --> 00:00:58,441
+So we just did the page load and I won't go
+too ended up with that that's just like a
+little extra
+
+9
+00:01:00,682 --> 00:01:05,085
+Showing off if you will to just add
+different functionality to your website if
+you want
+
+10
+00:01:06,512 --> 00:01:11,152
+The big thing is we refactored our functions
+for our attack
+
+11
+00:01:12,225 --> 00:01:20,018
+If you remember originally we had a single
+attack function that did both the hero
+attack the villain attack and it also drew
+the health
+
+12
+00:01:21,542 --> 00:01:25,179
+And we actually refactor those into their
+own separate functions
+
+13
+00:01:26,519 --> 00:01:32,966
+That increases readability and reusability
+for if I ever want to actually call in that
+hero attack maybe the hero attacks
+
+14
+00:01:32,966 --> 00:01:39,414
+when he gets critical hit if there's a
+critical hit I can actually make my hero
+respond and attack once more
+
+15
+00:01:41,061 --> 00:01:47,467
+And if I wanted that all at that point I
+needed to do is actually call this function
+into wherever that needs to go
+
+16
+00:01:49,952 --> 00:01:57,468
+We also went over some simple conditions
+here so we just render these alerts whenever
+the health is at or below zero and we did
+
+17
+00:01:57,468 --> 00:02:04,985
+the same thing for the villain this is just
+going over how to use our conditionals and
+how to actually pass these arguments within
+them
+
+18
+00:02:06,497 --> 00:02:10,560
+We showed off using the math-up floor mat
+that random to get a random generate
+
+19
+00:02:10,560 --> 00:02:14,623
+number for in this instance it's going to be
+a number that's 0 through 10
+
+20
+00:02:28,943 --> 00:02:35,078
+We also sold this ifIf true then render the.
+
+21
+00:02:35,663 --> 00:02:43,226
+Return that's after it so we'll sayIf above.
+If this is true.
+
+22
+00:02:44,287 --> 00:02:45,568
+Return this
+
+23
+00:02:50,180 --> 00:02:54,732
+So it's a little bit simpler than using a
+ternary because a ternary would be
+
+24
+00:02:54,732 --> 00:03:01,883
+a bad use case here since I'm not returning
+anything if it's actually falseSo I can just
+make this if.
+
+25
+00:03:02,757 --> 00:03:05,246
+If true statement here return this alert
+
+26
+00:03:09,481 --> 00:03:17,063
+We also showed off making this variable hero
+attack like I said and reducing the hero's
+Health every time this is clicked
+
+27
+00:03:18,436 --> 00:03:25,650
+And the functionality for the villain attack
+is going to be essentially the same we just
+do some also checksTo make sure we're.
+
+28
+00:03:26,718 --> 00:03:32,313
+If the health is below zero on either one of
+these that we're not going to allow that to
+happen we're just going to return
+immediately
+
+29
+00:03:35,593 --> 00:03:41,964
+After that we had our draw hero health and I
+just want to go over making sure we got
+these hero Health eels
+
+30
+00:03:42,931 --> 00:03:47,062
+And we go to our Dom and get that Ellen by
+its ID that we
+
+31
+00:03:47,062 --> 00:03:51,193
+put on our index at HTML and we use this
+ternary to set the health
+
+32
+00:03:52,812 --> 00:03:59,309
+To the hero Health if the health is above
+zero but if that's false we said to these
+three cost bones
+
+33
+00:04:00,104 --> 00:04:03,750
+And also showed off this cool way to add a
+class
+
+34
+00:04:05,628 --> 00:04:08,810
+Whenever his health is actually at or below
+zero
+
+35
+00:04:11,091 --> 00:04:17,959
+Then we worked on our health whichWe just
+passed through both our draw hero health and
+villain health.
+
+36
+00:04:18,215 --> 00:04:20,590
+And then we also did our drink potion
+
+37
+00:04:21,126 --> 00:04:28,625
+Which we made this if else statement here so
+we kind of go from the top so obviously if
+we don't have a potion we're going to alert
+that
+
+38
+00:04:28,625 --> 00:04:36,124
+we don't if our health is already above 100
+we can't drink a potion and if her health is
+at or below zero we can't drink a potion
+either
+
+39
+00:04:36,414 --> 00:04:44,362
+And then off all those are false we can go
+ahead and actually set our time out to 3
+secondsTo actually run this health up.
+
+40
+00:04:44,656 --> 00:04:47,221
+Which then increase our health by 25
+
+41
+00:04:51,318 --> 00:04:56,270
+And lastly we made this kind of this custom
+function for that role for health potion
+
+42
+00:04:56,624 --> 00:05:03,074
+And we reuse our math up floor mat that Ram
+to get a random number between 1 and 10
+
+43
+00:05:03,586 --> 00:05:08,265
+And then if that number is above 8 we can go
+ahead and flip that bull
+
+44
+00:05:08,265 --> 00:05:12,944
+on our object to true and that allows us to
+actually use that health potion
+
+45
+00:05:24,677 --> 00:05:30,227
+I hope you enjoyed this lecture I know it's
+a little bit if you're a gamer like me it's
+cool seeing
+
+46
+00:05:30,227 --> 00:05:35,778
+the implementation of actually making these
+games come to life and always feel free to
+add like I said any little
+
+47
+00:05:35,778 --> 00:05:41,328
+extra things you want to add to your project
+you can make it more complicated if you want
+make it
+
+48
+00:05:42,201 --> 00:05:45,608
+Less complicated if you're not super into
+games as well
+
+49
+00:05:45,789 --> 00:05:51,299
+Because I do know this is a topic that
+sometimes people who aren't Gamers struggle
+with is that gamer logic
+
+50
+00:05:52,410 --> 00:05:55,915
+Sometimes the best thing is just to keep it
+simple and don't overcomplicate it
+
+51
+00:06:06,112 --> 00:06:12,847
+But thank you for following along and that
+will be our intro to JavaScript lectureThank
+you.
+

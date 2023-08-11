@@ -1,0 +1,648 @@
+1
+00:00:05,788 --> 00:00:11,330
+So from here we want to have some sort of
+indicator to say if I have a potion
+
+2
+00:00:13,001 --> 00:00:17,236
+So let's create a new variable and we're
+going to say has health potion up here
+
+3
+00:00:18,705 --> 00:00:24,175
+And we're going to set SteveAnd we're going
+to set its default value to false.
+
+4
+00:00:25,434 --> 00:00:32,925
+And while we're up here we can go ahead and
+say like hero nameEquals the code Works
+crusader.
+
+5
+00:00:36,359 --> 00:00:38,381
+And we'll set the villain name as well
+
+6
+00:00:43,021 --> 00:00:50,516
+And this is going to be the coding virusAnd
+at this point you might be able to recognize
+it.
+
+7
+00:00:51,497 --> 00:00:56,419
+What we did earlier with creating objects we
+could probably do the same thing here
+
+8
+00:00:57,937 --> 00:01:05,664
+So I'm actually going to create a cons
+hereI'm going to call this the hero. And
+this is going to equal this object.
+
+9
+00:01:07,082 --> 00:01:10,671
+I'm going to have nameEqual the code Works
+crusader.
+
+10
+00:01:13,633 --> 00:01:20,653
+And I need to make sure I have this comma
+hereWill do health is 100. And has health
+potion.
+
+11
+00:01:21,073 --> 00:01:27,634
+Is going to be falseI'm going to just. We'll
+say.
+
+12
+00:01:37,149 --> 00:01:43,388
+And we'll just say it's the refactored
+version of above and then let's do the same
+thing here with this villain
+
+13
+00:01:44,847 --> 00:01:46,386
+You can just say const villain
+
+14
+00:01:53,465 --> 00:01:58,187
+And we'll say the name and then we'll give
+the health of 150 as well
+
+15
+00:01:59,041 --> 00:02:03,095
+Perfect so right now we should have some
+errors
+
+16
+00:02:05,780 --> 00:02:12,407
+Well actually not excuse me because we still
+have these variables up hereBut from here I
+can actually Target.
+
+17
+00:02:13,153 --> 00:02:14,499
+The hero.health
+
+18
+00:02:17,320 --> 00:02:23,153
+And I can actually just I'm going to use the
+control D here I'm going to Target all my
+villains health
+
+19
+00:02:24,021 --> 00:02:29,116
+Let's make sure that's all of themSee that's
+going to be a problem there though.
+
+20
+00:02:30,775 --> 00:02:34,436
+This should be fine for now we'll say
+villain DOT health
+
+21
+00:02:35,638 --> 00:02:41,590
+But I got to sneak in here I won't change
+any of this but I do want it to equal my
+villain to health here
+
+22
+00:02:41,782 --> 00:02:46,634
+Sweet awesome and I'm going to do the exact
+same thing with my hero health
+
+23
+00:02:57,794 --> 00:03:05,008
+So it's fine my hero Health hereAnd then
+we'll just Target all these hero health and
+we'll say hero.health.
+
+24
+00:03:08,113 --> 00:03:09,986
+And then we'll change it here as well
+
+25
+00:03:17,255 --> 00:03:20,582
+And one last spot down in our drink potion
+
+26
+00:03:24,919 --> 00:03:30,723
+We'll change it to this objectAwesome.
+
+27
+00:03:33,323 --> 00:03:36,549
+Just a little bit better refactoring cuz
+
+28
+00:03:37,386 --> 00:03:41,568
+Like come into tomorrow's project that you
+might be more comfortable just
+
+29
+00:03:41,568 --> 00:03:45,750
+creating that object instead of just
+creating a bunch of variables that
+
+30
+00:03:46,320 --> 00:03:53,797
+Doesn't really tie too much to the hero
+besides the fact that it's got the hero in
+front of the name let's just create that
+into an object
+
+31
+00:04:00,094 --> 00:04:03,775
+And I'll put the refactor from above as well
+
+32
+00:04:06,404 --> 00:04:11,221
+But now I have this property on my hero
+object that has health potion
+
+33
+00:04:12,678 --> 00:04:16,238
+So I want to be able to check if hero has
+health potion
+
+34
+00:04:32,784 --> 00:04:38,165
+So if we actually there's a two ways we can
+handle this we can either put this
+exclamation point
+
+35
+00:04:39,436 --> 00:04:45,048
+And let's give ourselves an alertWe're just
+going to return this cuz we wanted it to
+hard stop here.
+
+36
+00:04:46,345 --> 00:04:52,834
+So we'll say sorry youDo not have. A health
+potion.
+
+37
+00:04:55,664 --> 00:05:01,693
+Unless just make sure we rub insult to
+injury and we'll say add in our little test
+tube here
+
+38
+00:05:02,554 --> 00:05:05,489
+Sweet so let's save that and go to our web
+application
+
+39
+00:05:08,737 --> 00:05:14,796
+And if I try to hit potion nowWe get this
+alert that says sorry you don't have that
+health potion.
+
+40
+00:05:16,304 --> 00:05:20,280
+And because we're returning it I also won't
+get any help either
+
+41
+00:05:20,962 --> 00:05:27,199
+So now we need to add some sort of
+functionality that can actually flip that
+bull
+
+42
+00:05:29,007 --> 00:05:36,443
+Cuz right now no matter whatOr has health
+potion is always going to remain false
+because that's what it's set to but.
+
+43
+00:05:36,443 --> 00:05:41,033
+now we need to create some sort of function
+that will flip this bull to true
+
+44
+00:05:41,933 --> 00:05:46,628
+Which will then allow me to actually
+increase my Hero's Health by 25
+
+45
+00:06:09,705 --> 00:06:14,965
+And since all my main functionalities built
+inside this attack
+
+46
+00:06:15,738 --> 00:06:21,880
+I'm going to need some sort ofRoll for
+potion here. Because I'm going to make some.
+
+47
+00:06:23,077 --> 00:06:30,270
+So I'm going to design this to give you a
+percentage of a chance every time you attack
+to essentially drop a potion
+
+48
+00:07:19,661 --> 00:07:24,918
+So it's actually create another function
+after these since we're going to be working
+within this attack
+
+49
+00:07:28,144 --> 00:07:33,643
+I'm going to make it underneath my hero
+attack just to keep him in order and I'm
+going to say function
+
+50
+00:07:35,954 --> 00:07:42,279
+We're going to sayWe'll say roll.
+
+51
+00:07:42,693 --> 00:07:49,019
+For health potion hereIt's going to have a
+little bit of a D&D aspect to it.
+
+52
+00:07:54,243 --> 00:07:57,928
+So we're going to create this variable role
+for health
+
+53
+00:08:00,871 --> 00:08:04,939
+And we'll do the same as earlier we'll do
+our math that floor
+
+54
+00:08:06,974 --> 00:08:10,491
+And we'll do a math.ranum and we'll multiply
+this by 11
+
+55
+00:08:14,645 --> 00:08:16,570
+So we should have a number
+
+56
+00:08:20,409 --> 00:08:26,810
+Actually let's do something different on
+this oneLet's multiply it by 10.
+
+57
+00:08:28,050 --> 00:08:34,672
+Cuz I don't want it to actually be zeroTo 10
+I want this to be one through 10.
+
+58
+00:08:35,901 --> 00:08:38,127
+It's outside of this let's actually add this
+one
+
+59
+00:08:45,709 --> 00:08:53,456
+So now this roll for health will always be a
+number 1 through 10 because of that plus one
+because the max number I can have is a 9
+right now but because of
+
+60
+00:08:53,456 --> 00:09:01,202
+that I can add the one and then the lowest
+number I can have will always be a one
+because if it's a zero it's going to get
+that plus one as well
+
+61
+00:09:06,005 --> 00:09:13,511
+So now we get to create our opportunity to
+actually get this potionSo we'll say if roll
+for health is.
+
+62
+00:09:14,881 --> 00:09:21,443
+Greater than7.
+
+63
+00:09:25,072 --> 00:09:27,275
+Seven let's actually go to our hero
+
+64
+00:09:28,532 --> 00:09:34,609
+Get that has health potion Bowl so right now
+we're going right back up here to line 10
+we're saying hit this line
+
+65
+00:09:35,208 --> 00:09:37,878
+And now I want you to make it equal true
+
+66
+00:09:41,228 --> 00:09:48,440
+And after you do that let's do an alert so
+we knowAnd we'll say you found a health
+potion.
+
+67
+00:09:51,281 --> 00:09:57,094
+And let's let's put that test tube in there
+it I like the way it looksThat's a little
+extra Flair.
+
+68
+00:10:01,763 --> 00:10:08,533
+So let's save thisAnd let's make sure we
+actually add it to this attack function as
+well.
+
+69
+00:10:09,365 --> 00:10:13,190
+Cuz if we don't add it to this we'll never
+actually be able to see it pop up
+
+70
+00:10:16,325 --> 00:10:24,234
+So at this point I should have a30% chance
+to find a potion sweet.
+
+71
+00:10:26,081 --> 00:10:31,281
+And what's that a little strategyMake sure
+I'm at least below 100.
+
+72
+00:10:34,056 --> 00:10:39,026
+To actually now get that random luck chance
+so it's still just a game of luck
+
+73
+00:10:40,762 --> 00:10:47,241
+But this point it adds a little more Flair
+to itOh man I'm getting really lucky here
+but.
+
+74
+00:10:51,004 --> 00:10:52,773
+I'm trying to think really quick if anything
+
+75
+00:10:59,178 --> 00:11:06,758
+But this refactoring and putting them in
+those private functionsMakes it so at any
+point now.
+
+76
+00:11:07,556 --> 00:11:14,230
+We can change one thing in that functionSo
+if I feel like okay maybe this is too easy
+now.
+
+77
+00:11:14,655 --> 00:11:22,454
+Let's create this it needs to be higher than
+eight or maybe that you only have a 1% orAn
+actual 10% it has to equal 10.
+
+78
+00:11:24,263 --> 00:11:27,563
+So it's going to make it really hard so you
+have a 10% chance
+
+79
+00:11:29,538 --> 00:11:34,839
+You can do different things just to increase
+orIncrease the difficulty.
+
+80
+00:12:38,933 --> 00:12:43,485
+So now let's just add some quick
+functionality to my health potion
+
+81
+00:12:56,489 --> 00:13:03,538
+We'll say if the hero will make sure weSet
+it to 100 but we'll also just return.
+
+82
+00:13:05,198 --> 00:13:12,688
+And we'll keep this test tube thing going
+we'll get the test tube in thereOr our
+secret concoction.
+
+83
+00:13:13,509 --> 00:13:19,603
+And say you cannot drink a potionIf your
+health is full.
+
+84
+00:13:23,955 --> 00:13:31,339
+Awesome let's do one more check as wellCuz
+we don't want any any healing going on if.
+
+85
+00:13:33,952 --> 00:13:38,838
+You are your hero the code Works Crusader
+hasIt's no longer with us.
+
+86
+00:14:08,709 --> 00:14:14,463
+I just realized this this is never going to
+hit this alert we'll go back to itSo.
+
+87
+00:14:15,087 --> 00:14:19,152
+If we're at 0 or less than 0 Let's return
+this alert here
+
+88
+00:14:22,038 --> 00:14:26,189
+And we'll just say you can't drinkIf you're
+dead.
+
+89
+00:14:29,831 --> 00:14:37,159
+Let's actually add some crossbones here
+yeahSpice it up a little bit.
+
+90
+00:14:41,743 --> 00:14:48,178
+And I noticed just thinking about after this
+wasWrote in is.
+
+91
+00:14:55,258 --> 00:15:02,806
+This isn't going to work properly in the way
+I want it toCuz it's going to. Put it back
+to 100.
+
+92
+00:15:04,061 --> 00:15:05,717
+But then it's going to also
+
+93
+00:15:12,064 --> 00:15:16,935
+YeahSo this isn't going to work the way I
+wanted to work right now.
+
+94
+00:15:18,027 --> 00:15:24,839
+Cuz right now I do want this to reset it
+back to 100 century when I drink a potion
+and it's going to over
+
+95
+00:15:24,839 --> 00:15:31,651
+go over the hundred I want to actually set
+to 100 but I want this to return if my
+health is above 100
+
+96
+00:15:31,787 --> 00:15:38,161
+So because it's always going to be at 100 at
+this point this will actually never get
+returned because it's never going to be over
+or
+
+97
+00:15:38,800 --> 00:15:41,058
+Let me actually said that's not women
+
+98
+00:15:45,962 --> 00:15:48,727
+I just want to make two functions I'm at the
+two
+
+99
+00:16:47,874 --> 00:16:49,666
+So right now I have it so
+
+100
+00:16:50,974 --> 00:16:58,189
+If his health goes over a hundred set it
+back to 100 and then it's going to hit this
+if your potion is you can't drink potion
+
+101
+00:16:58,189 --> 00:17:05,405
+if you're full I don't necessarily want that
+to trigger every single time I just over
+heal myself essentially so let's make an
+else if here
+
+102
+00:17:07,178 --> 00:17:13,122
+And then we'll actually put if the hero
+healthIs greater than 100 as well.
+
+103
+00:17:15,149 --> 00:17:20,551
+I kind of want to make these quick checks in
+hereSo it's actually return this alert here.
+
+104
+00:17:21,482 --> 00:17:25,472
+So if I don't have a health potion I
+shouldn't even be able to drink at all
+
+105
+00:17:26,215 --> 00:17:32,191
+But if I do have a health potion and my
+health is well actually do both if
+
+106
+00:18:42,344 --> 00:18:45,812
+Move this guy here so we're pretty much
+saying if all this happens
+
+107
+00:18:50,436 --> 00:18:56,570
+All the bad things that can happen now let's
+go ahead and returnHero.health.
+
+108
+00:18:58,533 --> 00:19:00,029
+Plus equals 25
+
+109
+00:19:20,934 --> 00:19:24,443
+So I got to return there so we'll get it
+else so say else
+
+110
+00:19:37,741 --> 00:19:43,606
+We can get rid of thisAnd at this point we
+can actually do.
+
+111
+00:19:45,833 --> 00:19:46,920
+A ternary
+
+112
+00:19:48,380 --> 00:19:54,375
+And let's actually just create so a ternary
+is going to be like an if statement so let's
+get rid of here
+
+113
+00:19:56,148 --> 00:20:04,001
+Get rid of that and what's create ternary
+based off this if statementSo the first part
+of the ternary.
+
+114
+00:20:04,280 --> 00:20:10,130
+Is going to be essentially this conditionSo
+I'm going to say if hero.health.
+
+115
+00:20:10,911 --> 00:20:16,975
+Is greater than 100And this is going to look
+weird the first few times you try.
+
+116
+00:20:19,271 --> 00:20:26,175
+InThis is going to look weird the first few
+times you actually make a ternary cuz we're
+going to have this question mark.
+
+117
+00:20:27,845 --> 00:20:35,727
+And then this if this is true if my hero
+health is above 100 let's go ahead and make
+hero Health equal
+
+118
+00:20:37,598 --> 00:20:43,220
+100But if it's fall so if it is.
+
+119
+00:20:44,876 --> 00:20:47,618
+Nothing changes we could do
+
+120
+00:20:52,485 --> 00:20:54,625
+We do know empty string
+
+121
+00:21:05,148 --> 00:21:08,474
+Hold on hold on Zach I'm looking at Best
+Practices
+
+122
+00:21:22,341 --> 00:21:28,456
+JavaScript I don't care about JavaNot right
+now at least sir. 2021.
+
+123
+00:21:43,511 --> 00:21:45,412
+I don't know that the guy not even make a
+ternary
+
+124
+00:23:07,139 --> 00:23:07,945
+With the hit
+
+125
+00:23:30,344 --> 00:23:36,045
+OkayI'll be back I'm going to stop recording
+and make sure it's working.
+

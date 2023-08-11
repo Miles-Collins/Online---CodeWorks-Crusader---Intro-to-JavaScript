@@ -1,0 +1,390 @@
+1
+00:00:02,861 --> 00:00:08,787
+So let's add a little Flair to this game cuz
+right now we just have hard coded numbers in
+
+2
+00:00:08,787 --> 00:00:14,714
+so every time we attack no matter what I'm
+going to win because the villain's health is
+going down
+
+3
+00:00:14,714 --> 00:00:20,641
+a much faster rate than mine so we need to
+add some sort of random factor to this
+project
+
+4
+00:00:22,167 --> 00:00:28,821
+Let's head over to our JavaScript and I'll
+show you all let's head over to our
+JavaScript and I'll show you how to do just
+that
+
+5
+00:00:54,749 --> 00:01:00,037
+So from here I'm going to add that section
+tag as well so we'll see section
+
+6
+00:01:00,453 --> 00:01:04,204
+Hero let's get rid of this debugger we don't
+need this anymore
+
+7
+00:01:05,994 --> 00:01:10,616
+So the main important part is we have these
+two checks here at the top we want to
+
+8
+00:01:10,616 --> 00:01:15,237
+keep these at the top cuz we don't want any
+code to run if it hits this
+
+9
+00:01:17,247 --> 00:01:25,019
+But after that let's create a new variable
+that's going to essentially be that Heroes
+attackSo let's say let hero attack.
+
+10
+00:01:26,982 --> 00:01:29,280
+And I want this to equal
+
+11
+00:01:30,286 --> 00:01:35,259
+Math.random this is going to be a JavaScript
+function that's built in
+
+12
+00:01:36,404 --> 00:01:39,138
+And I'm just going to multiply this by 10
+for now
+
+13
+00:01:44,158 --> 00:01:51,264
+And let's go ahead and cancel out this for
+nowWe want to apply it though.
+
+14
+00:01:51,591 --> 00:01:55,025
+Cuz I do want to show off one thing that's
+going to be kind of a problem
+
+15
+00:02:02,726 --> 00:02:09,475
+So let's open up our consoleI want to tag.
+
+16
+00:02:09,756 --> 00:02:17,599
+So right now we see that we have our hero
+attackAnd it's 1.4333 and it's always going
+to give me a random number.
+
+17
+00:02:20,580 --> 00:02:28,353
+Between 0There's a good one zero and 10 I
+actually got two.
+
+18
+00:02:28,353 --> 00:02:35,651
+very high rolls it's very low chance to get
+a 9.979.02But it's just going to be a random
+number between those.
+
+19
+00:02:45,826 --> 00:02:53,160
+And that's what I want my and that's what I
+want my hero to be able to take I wanted to
+be able to attack in between 0
+
+20
+00:02:53,456 --> 00:03:00,206
+And 10But right now we're getting those long
+integer numbers so the way a quick.
+
+21
+00:03:00,206 --> 00:03:05,155
+way to fix that is we can also use another
+JavaScript function called math.flora
+
+22
+00:03:06,400 --> 00:03:08,712
+So if we save that and head back to our Dom
+
+23
+00:03:16,346 --> 00:03:21,993
+From here we can see in my hero text 96852
+
+24
+00:03:22,939 --> 00:03:25,339
+And we can keep going so we got a zero
+
+25
+00:03:26,043 --> 00:03:31,482
+And we actually defeated but there is one
+problem now because of the math.4
+
+26
+00:03:31,986 --> 00:03:38,002
+Is that it will can never be 10It can only
+be zero through nine so after this.
+
+27
+00:04:09,937 --> 00:04:12,418
+So let's go ahead and just change this to 11
+
+28
+00:04:16,971 --> 00:04:18,062
+Let's check it out here
+
+29
+00:04:21,180 --> 00:04:27,549
+Cuz Matt thought floors always going to
+round down to the nearest number and sweet I
+got my tender
+
+30
+00:04:28,314 --> 00:04:31,568
+And I should still be able to get a zero
+awesome perfect
+
+31
+00:04:37,069 --> 00:04:41,519
+And there are other ways to do this there's
+also going to be a math dot ceiling
+
+32
+00:04:45,954 --> 00:04:51,252
+Maybe notMaybe I'm just remember. Yeah just
+act like I never said that.
+
+33
+00:05:04,549 --> 00:05:10,789
+So awesome from here I have my hero
+attackAnd when my hero attacks.
+
+34
+00:05:12,582 --> 00:05:19,963
+I wanted to crease the bosses the villains
+help not by 10:00But I actually wanted to
+crease the villain's Health by.
+
+35
+00:05:24,730 --> 00:05:26,627
+The amount in my hero attack
+
+36
+00:05:28,282 --> 00:05:34,113
+So one important thing that I kind of
+switched up here is my villain Health should
+go down when I attack
+
+37
+00:05:37,045 --> 00:05:40,407
+In my hero hell should go down when the
+villain attacks essentially
+
+38
+00:05:44,796 --> 00:05:51,255
+It will change this to villain healthInstead
+of going down by 10:00 here let's actually
+say.
+
+39
+00:05:52,056 --> 00:05:57,653
+Sign it toThat variable we created which is
+going to be a random number.
+
+40
+00:06:01,138 --> 00:06:07,458
+So now if we come back to our application we
+can see it goes down by 85.
+
+41
+00:06:08,519 --> 00:06:13,403
+And then six it's going to always be a
+random numberTo this point.
+
+42
+00:06:14,257 --> 00:06:20,908
+It's going to be completely random if I can
+actually defeat the bossAnd. I couldn't beat
+him.
+
+43
+00:06:23,534 --> 00:06:29,861
+But we do come into another issue that we're
+having here is the hero health is at 5:00
+when we want to be at zero
+
+44
+00:06:37,532 --> 00:06:42,125
+But that's also because of the place that we
+have are
+
+45
+00:06:43,936 --> 00:06:48,157
+Hero Health going down now because it's
+actually in the bottom portion of it
+
+46
+00:06:48,990 --> 00:06:53,823
+So we'll fix that once we get back to
+calculating our villains damage as well
+
+47
+00:07:22,176 --> 00:07:25,253
+So from here I'm going to do the same thing
+with my villain
+
+48
+00:07:30,064 --> 00:07:36,619
+Let's say let villainAttack. Equal. We'll
+start with that math up for.
+
+49
+00:07:38,227 --> 00:07:43,255
+And we'll use that random generator cuz this
+is like say this is going
+
+50
+00:07:43,255 --> 00:07:48,283
+to map out random will randomly generate a
+number between 0 and 1
+
+51
+00:07:48,490 --> 00:07:52,174
+And that's why we need to multiply it by
+either the 10 or 11
+
+52
+00:07:54,136 --> 00:08:00,750
+But in this case I'm not going to do 11 I'm
+actually going to make it so the boss can
+attack from 0 to 60 to 15
+
+53
+00:08:02,216 --> 00:08:03,830
+He's got a little bit more damage
+
+54
+00:08:11,106 --> 00:08:13,890
+And we'll have the hero Health go down by
+that attack
+
+55
+00:08:15,965 --> 00:08:19,651
+So let's go ahead and get rid of some of
+these console logs as well at this point
+
+56
+00:08:20,769 --> 00:08:25,660
+We know they are doing exactly what we
+wanted to do so there's really no point in
+keeping in there
+
+57
+00:08:29,404 --> 00:08:36,218
+SweetSo let's refresh and when we attack
+now.
+
+58
+00:08:40,608 --> 00:08:47,571
+We see that we're both attacking each other
+for a completely random numbersAnd he smoked
+me dang.
+
+59
+00:10:05,796 --> 00:10:07,584
+So I want to add something in here
+
+60
+00:10:09,290 --> 00:10:14,308
+For when the hero's Health actually goes to
+zero so we'll do the same thing we'll say
+
+61
+00:10:15,810 --> 00:10:22,438
+If Our Hero's health is less than or equal
+to zeroWill pop that alert as well.
+
+62
+00:10:25,358 --> 00:10:30,051
+We'll just say oh no the code Works Crusader
+has vanquished
+
+63
+00:10:33,702 --> 00:10:41,239
+Well actually making a little will slain by
+the coatingVirus. And we'll say.
+
+64
+00:10:41,873 --> 00:10:47,285
+RipIt's not we go back to our web
+application.
+
+65
+00:10:50,305 --> 00:10:56,986
+If we lose again hopefully we get thatOh no
+the code works great dang he hit me hard.
+
+66
+00:11:00,587 --> 00:11:08,524
+Wait a secondHe isn't dead.
+
+67
+00:11:29,106 --> 00:11:30,635
+What's going on man
+
+68
+00:12:47,802 --> 00:12:54,813
+So right now when I click through this
+gameYou can see there's a little bit of an
+air there with the heroes health.
+
+69
+00:12:55,165 --> 00:13:00,339
+And that's because it's not getting
+drawnTill I click on the bun the next time.
+
+70
+00:13:02,932 --> 00:13:08,072
+And this air is kind of occurring due to a
+couple reasons but the main reason
+
+71
+00:13:10,429 --> 00:13:15,533
+Is that I have a lot of code here just all
+created inside of one function
+
+72
+00:13:16,858 --> 00:13:20,432
+This would be the definition of not clean
+code
+
+73
+00:13:21,367 --> 00:13:25,187
+There's a lot of things we can refactor into
+other functions
+
+74
+00:13:27,755 --> 00:13:33,438
+Cuz right now we have pretty much three
+functions all written to this one right now
+we have
+
+75
+00:13:33,438 --> 00:13:39,121
+an attack by our hero you have an attack bar
+villain but we also have these draws
+happening
+
+76
+00:13:40,100 --> 00:13:47,132
+As well and that's where this conflict is
+happening we need to create a function for
+those first two things but we also need to
+create that function for
+

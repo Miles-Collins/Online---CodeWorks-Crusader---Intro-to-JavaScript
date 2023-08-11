@@ -1,0 +1,674 @@
+1
+00:00:05,043 --> 00:00:12,045
+So now that the functionality of this webLet
+me rephrase it so now that the functionality
+of our.
+
+2
+00:00:12,822 --> 00:00:15,542
+Little clicker game is made and set up
+
+3
+00:00:16,804 --> 00:00:22,830
+We know we have the foundation of our
+website reallyIn great condition.
+
+4
+00:00:25,947 --> 00:00:31,263
+And this is always the most important part
+of a websiteCuz sometimes.
+
+5
+00:00:34,802 --> 00:00:42,089
+People will actually have a habit which can
+kind of be a bad habit to overstow so pretty
+much make the style of the
+
+6
+00:00:42,089 --> 00:00:49,376
+website what it look like on when I was
+showing it off without actually making any
+functionality so they'll have the buttons
+where
+
+7
+00:00:49,376 --> 00:00:56,663
+they need to go they'll have the dudes
+looking really cool but they'll spend way
+too much time and focus on maybe the
+
+8
+00:00:56,663 --> 00:01:03,950
+way it looks but in reality when it's
+someone starts to try when someone starts to
+interact with those objects they do nothing
+
+9
+00:01:05,790 --> 00:01:11,221
+It can be kind of disappointing toLet me
+rephrase that.
+
+10
+00:01:13,144 --> 00:01:19,703
+It can be a very disappointing experience
+for a user if they're on your website and
+they're excited to play the
+
+11
+00:01:19,703 --> 00:01:27,447
+game that you have built out for him and
+nothing works and they're just clicking buns
+that actually don't do anythingSo.
+
+12
+00:01:27,826 --> 00:01:33,020
+It's always really important to remember
+functionality before form is like to say get
+all the functionality
+
+13
+00:01:33,020 --> 00:01:38,214
+working and then let's actually design this
+website to look the way we wanted to look
+
+14
+00:01:46,550 --> 00:01:48,815
+So let's go ahead and head back to vs code
+
+15
+00:01:51,692 --> 00:01:58,267
+And let's start actually working on those
+stylesFrom here I'm actually going to import
+some assets.
+
+16
+00:02:05,711 --> 00:02:11,962
+And then we got our attack button in here we
+got some other buttons in here as well or
+some other images rather
+
+17
+00:02:16,466 --> 00:02:20,920
+So let's go to our index.html we'll close
+this out
+
+18
+00:02:28,078 --> 00:02:32,184
+And now let's get into just dialing out this
+page the way we want
+
+19
+00:02:38,671 --> 00:02:45,546
+So we'll go back since now we're actually
+going to style it the way the finished
+product look we'll convert this back to a
+container fluid
+
+20
+00:02:45,546 --> 00:02:52,420
+cuz we want this to look like the entire
+Battlefield we want the whole viewport to be
+that battlefield of those two fighting each
+other
+
+21
+00:02:55,127 --> 00:03:01,555
+We'll get rid of this padding as well since
+we won't have the buttonsThe way that they
+were designed.
+
+22
+00:03:04,372 --> 00:03:07,403
+And we're actually going to do a two call
+fives here
+
+23
+00:03:07,814 --> 00:03:14,699
+Cuz if you remember from the reference it
+was built out we kind of want those two
+individual buttons in the middle
+
+24
+00:03:16,650 --> 00:03:22,627
+So having two call fives on both sides
+allows us to actually put our buns in
+between these
+
+25
+00:03:24,227 --> 00:03:29,691
+We can actually put our buttons hereAnd a
+call to within the same row.
+
+26
+00:03:33,964 --> 00:03:36,268
+So let's just go ahead and move
+
+27
+00:03:44,168 --> 00:03:48,529
+These buns up into there so we'll just
+actually move the individual ones
+
+28
+00:03:54,267 --> 00:03:58,555
+And after we move these up here we will also
+make sure to get rid of
+
+29
+00:03:59,878 --> 00:04:07,793
+Those days down here so let's go ahead and
+clean this up as well let's make sure we get
+the entire rowGet him out of there. Sweet.
+
+30
+00:04:11,230 --> 00:04:18,796
+So at this point let's go to our web appWe
+can see we get those two buttons in the
+middle awesome.
+
+31
+00:04:53,340 --> 00:04:57,808
+So we'll wrap this attack in a PTACWe'll say
+attack.
+
+32
+00:05:00,984 --> 00:05:04,457
+Let's actually we'll do text uppercase on
+this P tag as well
+
+33
+00:05:08,733 --> 00:05:14,903
+And let's also addSome red to it so we'll do
+danger text.
+
+34
+00:05:16,190 --> 00:05:21,462
+And this will be a custom CSS class will
+make in our own CSS and let's actually open
+this up as well
+
+35
+00:05:31,738 --> 00:05:39,671
+And we'll do the same thing for this
+potionSo let's actually put a P tag in here
+and we'll call this one potion.
+
+36
+00:05:43,104 --> 00:05:45,275
+And we'll actually call this success text
+
+37
+00:05:55,131 --> 00:06:01,464
+And we're going to add some of our own
+custom CSS to this as wellAnd let's do.
+
+38
+00:06:05,994 --> 00:06:11,827
+To uppercase as well so we'll do text
+uppercaseSweet.
+
+39
+00:06:15,416 --> 00:06:19,715
+So let's go back up to our row and we'll add
+some more classes to our row
+
+40
+00:06:21,942 --> 00:06:29,703
+Let's just fire content betweenAnd let's
+align our items to the center.
+
+41
+00:06:33,252 --> 00:06:36,568
+The next class I want to add in is going to
+be called the battlefield
+
+42
+00:06:38,047 --> 00:06:45,469
+This is going to be that background image we
+had when we looked on it our previous or a
+reference project
+
+43
+00:06:47,297 --> 00:06:49,510
+But if we save for now and let's go back
+
+44
+00:06:52,055 --> 00:06:58,322
+We actually see some getting some centerness
+centerness and we canGet our buttons in
+here.
+
+45
+00:07:06,161 --> 00:07:11,038
+But let's not go to our styles.css we'll get
+rid of this hello world and
+
+46
+00:07:11,038 --> 00:07:17,152
+we'll actually create that Battlefield class
+and we'll create that text success as
+wellSo.
+
+47
+00:07:18,071 --> 00:07:23,980
+Let's access that and we'll go to the
+battlefieldAnd I want to set this to a
+dynamic view height.
+
+48
+00:07:24,777 --> 00:07:32,540
+Of that 100 viewportI'm going to access a
+background image.
+
+49
+00:07:34,928 --> 00:07:38,905
+And it's very important once again to make
+sure we target that URL
+
+50
+00:07:46,063 --> 00:07:49,138
+And then make sure we put those quotes
+around
+
+51
+00:07:49,695 --> 00:07:56,055
+And Lincoln that are tag or our and make
+sure we Link in the address of that image
+
+52
+00:07:57,308 --> 00:08:03,556
+SweetSo if we were just to save this we
+should get a background image but it's
+probably not going to look that good.
+
+53
+00:08:10,728 --> 00:08:17,839
+So now we get the tach potion and then we
+can kind of see the text but it's a little
+dark but we get
+
+54
+00:08:17,839 --> 00:08:24,950
+that background but it's just going to keep
+repeating over itself as well just because
+it's native sizes and the size of this
+viewport
+
+55
+00:08:30,155 --> 00:08:37,183
+So let's go back to our CSS and we can
+change that background sizeBy accessing the
+background size.
+
+56
+00:08:37,756 --> 00:08:43,712
+We'll just have cover for thatAnd then we'll
+also Target the background position.
+
+57
+00:08:44,322 --> 00:08:47,254
+And we're going to just make sure it's
+centered on the screen
+
+58
+00:08:51,237 --> 00:08:58,895
+So now we get that big background to set up
+our battlefield for our hero and the coding
+virus
+
+59
+00:09:04,060 --> 00:09:08,501
+While we're here I'm going to set up a new
+section I'm going to call this section my
+text section
+
+60
+00:09:12,529 --> 00:09:17,088
+Let's actually make those two texts that we
+set up earlier so we'll do a danger text
+
+61
+00:09:17,088 --> 00:09:23,852
+this is going to be very similar to just
+text danger but I'm going to addI'm going to
+add a little bit of font weight to it.
+
+62
+00:09:27,007 --> 00:09:30,889
+WhoopsSo let's target font weight.
+
+63
+00:09:32,864 --> 00:09:37,545
+Let's give it a heftiness so we'll give it
+800 which is going to make it quite a bit
+more bold
+
+64
+00:09:38,303 --> 00:09:41,175
+And then we'll also add some text Shadow to
+it
+
+65
+00:09:45,668 --> 00:09:49,349
+I'm going to add some white text Shadow so
+let's say this and look at it
+
+66
+00:09:52,844 --> 00:09:57,686
+So awesome we get thatNice effect with the
+white.
+
+67
+00:09:59,226 --> 00:10:01,291
+So it's add the same to our potion
+
+68
+00:10:04,568 --> 00:10:11,281
+So for this one I'm going to do pretty much
+the same except instead of red we're going
+to use the success of green
+
+69
+00:10:17,428 --> 00:10:21,567
+It's like I said will do essentially the
+same thing we'll use Font weight 800
+
+70
+00:10:22,243 --> 00:10:29,857
+And then we'll actually just go ahead and
+copy this text shadow inSave that. And let's
+take a look at it.
+
+71
+00:10:33,028 --> 00:10:37,975
+Sweet so we got our two button set upLet's
+continue back in our HTML.
+
+72
+00:10:49,118 --> 00:10:57,097
+So now that we're into section Hero Let's go
+ahead and label this sectionIt's actually go
+ahead and label all these sections.
+
+73
+00:11:10,117 --> 00:11:12,005
+Let me look up a semantics thing
+
+74
+00:11:16,269 --> 00:11:22,373
+I'm pretty sure they can call looms I
+misspelled columns are concessions be
+columns
+
+75
+00:11:24,041 --> 00:11:25,092
+HTML
+
+76
+00:11:29,988 --> 00:11:35,312
+So remember we were reading something about
+you should use sections over divs
+
+77
+00:11:36,267 --> 00:11:38,905
+I feel like this would be a good use case
+for that
+
+78
+00:11:44,339 --> 00:11:48,740
+Whatever I'm not to worry about it doesn't
+really it was more of a semantic thing
+
+79
+00:11:54,141 --> 00:11:58,589
+So let's target this call five and all this
+call five I'm going to make the text Center
+
+80
+00:12:00,070 --> 00:12:06,272
+And I'm going to set another unique class
+cuz I need to set the height of this parent
+call five here
+
+81
+00:12:09,714 --> 00:12:15,902
+And we'll go to our Styles at CSSSo I have
+my text we won't create this in my text.
+
+82
+00:12:28,013 --> 00:12:34,749
+Can I just want the height of this divThis
+parent did to be 75% and I'll show off what
+that's going to do.
+
+83
+00:12:36,355 --> 00:12:37,751
+Just make sure everything's saved
+
+84
+00:12:40,570 --> 00:12:48,185
+You see immediately we get our heroes Health
+at the top and let's actually inspect this
+to see the difference of what's going on in
+between these two
+
+85
+00:12:48,844 --> 00:12:51,768
+Cuz right now we can see this is that parent
+row
+
+86
+00:12:52,307 --> 00:12:59,209
+And if you notice we get a lot more height
+and coverage of the entire viewport then if
+I go to this villains
+
+87
+00:13:04,049 --> 00:13:10,319
+If I click on the actual row you can see the
+row is only going to be the height of the
+children within it
+
+88
+00:13:10,319 --> 00:13:16,589
+that row but if we were to do the same thing
+for this villain height and set it to a
+static height of 75%
+
+89
+00:13:17,769 --> 00:13:24,092
+We can actually get this to grow to the size
+that we want in spite of the contents within
+the container itself
+
+90
+00:13:34,029 --> 00:13:41,172
+But from here we'll continue with the hero
+section we'll add aJustify content Center to
+this.
+
+91
+00:13:42,471 --> 00:13:48,426
+Rose well cuz we're going to want the hero
+and all the health within here to be
+centered on the screen
+
+92
+00:13:50,002 --> 00:13:52,697
+So within here so within here
+
+93
+00:13:52,989 --> 00:13:58,808
+So within this row we'll actually go ahead
+and change it to a call 10 so it won't be so
+wide
+
+94
+00:14:01,364 --> 00:14:06,074
+Instead of having toInstead of having to
+Hero's Health let's actually make this the
+code Works Crusaders.
+
+95
+00:14:09,972 --> 00:14:13,021
+And since we capitalize everything I'll just
+make this age capitalize
+
+96
+00:14:18,484 --> 00:14:24,217
+And let's actually set this font size so
+let's give this a font size of three
+
+97
+00:14:24,715 --> 00:14:30,065
+And what's create another class called the
+header text which will use for this and the
+villain as well
+
+98
+00:14:35,850 --> 00:14:39,010
+So let's go create that within our text
+section
+
+99
+00:14:46,101 --> 00:14:50,341
+So we'll do that by just opening up that
+header text and actually scroll down here
+
+100
+00:14:53,656 --> 00:14:56,112
+I'm going to set the color of that text to
+White
+
+101
+00:15:01,080 --> 00:15:05,238
+And we'll apply text Shadow to it as well
+just to allowed to pop out a little bit more
+
+102
+00:15:07,994 --> 00:15:13,436
+And we'll give it a blackShadow. And let's
+add a little bit of a border here.
+
+103
+00:15:14,724 --> 00:15:20,827
+And we're actually going to make this border
+dotted so let's save thatAnd go take a look
+at what that looks like.
+
+104
+00:15:25,531 --> 00:15:28,862
+Awesome so now we applied that font size 3
+
+105
+00:15:29,238 --> 00:15:35,350
+So we set the phone a lot higher we also
+made the font white and we create that kind
+of that black
+
+106
+00:15:36,431 --> 00:15:39,375
+Text Shadow on as well and a white dotted
+border
+
+107
+00:15:39,928 --> 00:15:46,412
+And I'll show off the text Shadow itself so
+we can seeThe.
+
+108
+00:15:47,036 --> 00:15:50,834
+Code Works Health right there so it's
+actually go to this header text
+
+109
+00:15:53,644 --> 00:16:00,412
+And we'll actually open this up a little bit
+moreLet's go to our elements or.
+
+110
+00:16:04,447 --> 00:16:10,421
+So let's take a look at what that text
+shadow
+
+111
+00:16:13,223 --> 00:16:18,929
+So that's the difference of having text
+Shadow and not like I said it just makes it
+look a lot softer
+
+112
+00:16:18,929 --> 00:16:24,636
+and not so sharp or have that glow and it
+just looks better as well depending on the
+background was white
+
+113
+00:16:25,455 --> 00:16:30,715
+That's why I like to add a text Shadow to
+just open text on that's kind of floating
+around
+
+114
+00:16:30,969 --> 00:16:34,206
+And if you know the background might not be
+black
+
+115
+00:16:44,336 --> 00:16:50,207
+So from here we'll continue downTo our
+actual hero.
+
+116
+00:16:57,377 --> 00:17:00,364
+So make sure to go down underneath this row
+
+117
+00:17:06,446 --> 00:17:13,078
+We're going to add an image tagAnd this
+source is going to be from the images I
+added earlier.
+
+118
+00:17:14,663 --> 00:17:17,667
+And it's going to be this pixel hero.png
+
+119
+00:17:18,541 --> 00:17:24,944
+And then I'm going to sign a alt tag of here
+that's the code Works crusaderImage.
+
+120
+00:17:28,465 --> 00:17:30,689
+And I also want to send an ID
+
+121
+00:17:32,064 --> 00:17:37,113
+So I can access this from my JavaScript if I
+want to add any
+
+122
+00:17:37,113 --> 00:17:42,161
+if I want to add any JavaScript or custom
+CSS from later on
+
+123
+00:17:46,603 --> 00:17:52,938
+Let's go ahead and also add a title to this
+will add the title of what I should say the
+code Works crusader
+
+124
+00:17:57,010 --> 00:18:02,008
+And also add a class to this as well and
+this is going to take on the
+
+125
+00:18:05,384 --> 00:18:10,590
+Same class from earlier we're actually just
+going to reuse that Crusader height is 75%
+
+126
+00:18:17,723 --> 00:18:19,806
+So let's take a quick look at what this
+looks like
+

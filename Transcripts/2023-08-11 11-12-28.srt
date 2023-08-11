@@ -1,0 +1,221 @@
+1
+00:00:06,771 --> 00:00:10,632
+So let's start in our main.js we'll get rid
+of this console log here
+
+2
+00:00:11,844 --> 00:00:19,244
+And we can start off by just crying this
+hero healthAnd we'll do hero Health equals
+100.
+
+3
+00:00:19,853 --> 00:00:26,551
+And let's make sure we know these are
+different we can putOur section tag up here
+and we'll say hero.
+
+4
+00:00:28,689 --> 00:00:36,630
+And then let's go ahead and do the same
+thing here and I'll say sectionVillain. No
+say let villain help.
+
+5
+00:00:38,945 --> 00:00:40,674
+Equal 100 for now as well
+
+6
+00:00:44,388 --> 00:00:48,428
+Let's just go ahead and make this equal 150
+we'll give it some some variance to make it
+
+7
+00:00:53,870 --> 00:00:59,942
+We'll give some very interest make the the
+villain a little bit tougher than we areGive
+him a chance.
+
+8
+00:01:26,851 --> 00:01:29,808
+So let's start by just creating a function
+
+9
+00:01:31,865 --> 00:01:38,010
+That can reduce the villain's health so
+we'll actually trade a function we'll just
+call this function attack for now
+
+10
+00:01:39,557 --> 00:01:42,391
+Cuz this will be that middle button in the
+screen that we had
+
+11
+00:01:44,589 --> 00:01:48,897
+So when I clicked this I want to essentially
+first have the
+
+12
+00:01:48,897 --> 00:01:55,320
+hero Health go down by 5:00 so let's first
+console logHero Health here.
+
+13
+00:02:00,890 --> 00:02:08,105
+And it should be 100 at firstNext let's
+actually decrease that health.
+
+14
+00:02:10,081 --> 00:02:17,658
+So we'll decrease the total hero Health
+hereAnd we can do that simply by just saying
+hero health.
+
+15
+00:02:18,695 --> 00:02:21,054
+And then let's do minus equals 5
+
+16
+00:02:25,407 --> 00:02:32,741
+And let's actually check with the hero
+health isWe'll say hero Health after damage.
+
+17
+00:02:36,582 --> 00:02:40,194
+And let's save thatLet's go to our Dom.
+
+18
+00:02:51,678 --> 00:02:54,782
+And in here we can actually invoke that
+attack function
+
+19
+00:02:56,977 --> 00:03:02,639
+And we see we get hero Health 100 and hero
+Health after damage went down in 95
+
+20
+00:03:03,604 --> 00:03:09,537
+And we can do it again and we start with 95
+so you can see we still have that 95 so it
+
+21
+00:03:09,537 --> 00:03:17,246
+stays it holds that scope for that hero
+Health every time I do this so should go
+from 90 to 85Perfect.
+
+22
+00:03:18,597 --> 00:03:23,738
+Now that we know this bun is operating let's
+do the same thing for villain Health as well
+
+23
+00:03:30,179 --> 00:03:37,109
+Why is it returning undefined I'm not even
+returning anythingSay return no.
+
+24
+00:03:42,109 --> 00:03:46,499
+So it's creating another section
+
+25
+00:03:46,499 --> 00:03:50,889
+here we'll say villain
+
+26
+00:03:53,842 --> 00:03:57,008
+So let's do the same thing we can say
+console.log
+
+27
+00:04:00,527 --> 00:04:03,632
+About to attackVillain.
+
+28
+00:04:07,788 --> 00:04:09,642
+And we'll grab that bill and help as well
+
+29
+00:04:13,555 --> 00:04:16,400
+And we'll do minus equals 10
+
+30
+00:04:23,091 --> 00:04:28,216
+And we'll just say attacked the villain here
+as well and let's we should have the same
+result
+
+31
+00:04:36,047 --> 00:04:41,957
+So in our Dom let's go ahead and initialize
+that attackSo we get.
+
+32
+00:04:41,327 --> 00:04:45,867
+So we get our hero Health hero Health after
+damage about to attack villain attacked
+
+33
+00:04:47,058 --> 00:04:52,050
+And the cool thing is we can keep doing this
+for as long as we want but we have to keep
+initializing that
+
+34
+00:04:53,760 --> 00:04:59,933
+So let's make it a little bit easier on
+ourselves and let's assign that function to
+this button here
+
+35
+00:05:04,612 --> 00:05:12,466
+And to do that we have our function attack
+right hereNow we need to implement this in
+our on our button.
+
+36
+00:05:13,001 --> 00:05:20,827
+And we're going to do that by targeting this
+button right hereAnd let's assign this
+property of onclick.
+
+37
+00:05:22,195 --> 00:05:26,371
+And we're actually just going to go Target
+that attack function the name of it
+
+38
+00:05:27,505 --> 00:05:31,689
+So it needs to be exactly the same as thisSo
+if you.
+
+39
+00:05:32,506 --> 00:05:40,489
+Are unsure about spelling you can actually
+come here and just copy itAnd then paste it
+in here and let's save that and go back to
+our web application.
+
+40
+00:05:43,863 --> 00:05:49,251
+So from here I should be able to click
+attack now and we should get those console
+logs to pop up
+
+41
+00:05:51,969 --> 00:05:52,760
+Perfect
+
+42
+00:05:53,667 --> 00:06:00,135
+We have now added some functionality to our
+web application and we can see it working
+every time I click it
+
+43
+00:06:02,033 --> 00:06:06,103
+And we get these outputs from that function
+we create
+

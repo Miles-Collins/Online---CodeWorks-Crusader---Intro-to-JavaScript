@@ -1,0 +1,548 @@
+1
+00:00:12,326 --> 00:00:19,343
+I'm going to break this down into like said
+those categoriesLet's create our first
+function here.
+
+2
+00:00:20,081 --> 00:00:22,201
+And this is just going to be called hero
+attack
+
+3
+00:00:26,673 --> 00:00:30,381
+For the most part we kind of relaxed it had
+this sectioned off for this
+
+4
+00:00:31,424 --> 00:00:38,837
+So from here let's actually take all this
+and I'm just going to control XAnd add it
+down to my hero attack.
+
+5
+00:00:45,761 --> 00:00:52,376
+Whoops I caught a little bit of the hero
+attack there myself and then awesome we get
+that in there so the cool thing now
+
+6
+00:00:53,649 --> 00:00:57,203
+Is I can actually call that hero attack
+function within my tag
+
+7
+00:00:57,464 --> 00:01:03,020
+Even though none of this code exists up
+inside this function attack anymore
+
+8
+00:01:05,487 --> 00:01:07,453
+When we go to our console
+
+9
+00:01:14,959 --> 00:01:21,643
+We will see the same functionality work
+though we can actually see the villains
+Health going down every time we attack
+
+10
+00:01:23,480 --> 00:01:30,321
+Let me actually not bringing the accounts I
+didSo you're at the application whenever I
+click attack we can actually still see the
+villain's.
+
+11
+00:01:30,321 --> 00:01:34,520
+health is indeed still going down even
+though we're not calling it within that
+first function
+
+12
+00:01:38,334 --> 00:01:42,644
+So let's do the same exact thingFor our
+villain.
+
+13
+00:01:45,840 --> 00:01:50,504
+So we'll just call this one the same thing
+we'll just make it simple we'll say villain
+attack
+
+14
+00:01:55,737 --> 00:02:02,511
+Let's go to that section villain and we're
+going to go all the way downUntil we hit
+that.
+
+15
+00:02:04,009 --> 00:02:06,574
+Essentially what we like to call a draw
+function
+
+16
+00:02:09,764 --> 00:02:14,737
+So after our hero attack will thenCall our
+villain attack.
+
+17
+00:02:22,266 --> 00:02:27,701
+And we can go ahead and clean this up so you
+could actually usually just get rid of your
+console logs once you know they work
+
+18
+00:02:28,374 --> 00:02:32,293
+Waiting for this instance I'm going to keep
+them in there for a referencing purposes
+
+19
+00:02:41,860 --> 00:02:45,143
+So now we actually have just these last
+drawls
+
+20
+00:02:49,151 --> 00:02:51,692
+And I'm just going to call this one draw
+health
+
+21
+00:02:53,079 --> 00:02:57,828
+Because it's just going to draw all the
+health of the hero and the villain
+
+22
+00:02:58,925 --> 00:03:06,500
+And we can do the same exact thing here
+let's just moveAll that down into that draw
+Health function.
+
+23
+00:03:09,765 --> 00:03:14,428
+And I'll actually section this off to make
+it a little cleaner so we'll say section
+hero here
+
+24
+00:03:16,157 --> 00:03:23,416
+This guy be my section villainAwesome.
+
+25
+00:03:24,815 --> 00:03:27,822
+So the last thing we need to do here is do
+our draw help
+
+26
+00:03:30,559 --> 00:03:33,250
+So whenever we call this attack function now
+
+27
+00:03:33,966 --> 00:03:40,127
+It's going to trigger that hero attack that
+villain attack and then finally it's going
+to draw the health of all those
+
+28
+00:03:40,543 --> 00:03:46,515
+And you can actually close them up over here
+when you're kind of finished with that
+function and you can
+
+29
+00:03:46,515 --> 00:03:52,486
+always reopen it as well so now the draw
+should work correctly when I'm actually
+clicking on the attack button
+
+30
+00:03:55,201 --> 00:04:01,368
+So I should see a showSo I should see the
+hero's Health actually hit zero now.
+
+31
+00:04:03,450 --> 00:04:06,159
+Unless by some rare chance I win I don't
+think so
+
+32
+00:04:07,384 --> 00:04:15,068
+So we got the oh no the Crusaders was slain
+and we get that negative fiveSo let's fix
+that really quick as well.
+
+33
+00:04:25,402 --> 00:04:31,871
+So we'll say ifSo right now even though it
+is less than or equal to and it's hitting
+that alert.
+
+34
+00:04:32,360 --> 00:04:38,926
+It's going to go to the negativeSo it's
+actually just say hero health. Equals zero.
+
+35
+00:04:40,629 --> 00:04:44,064
+And we'll go ahead and do theAnd we'll go
+ahead and do the same for our hero attack as
+well.
+
+36
+00:04:47,864 --> 00:04:55,372
+So before I return that we'll make sure that
+the villain Health hits zero and stays at
+zero and we don't want to necessarily go
+below zero
+
+37
+00:04:58,476 --> 00:05:04,370
+So let's see that inGo back to our web
+application.
+
+38
+00:05:07,548 --> 00:05:09,448
+And we'll hit the attack again
+
+39
+00:05:12,928 --> 00:05:17,692
+So we get that oh no we lost but now we get
+our heroes health is at zero
+
+40
+00:05:19,485 --> 00:05:23,617
+And at this point we can no longer attack
+because we are defeated
+
+41
+00:05:28,176 --> 00:05:29,233
+Don't know why
+
+42
+00:05:50,075 --> 00:05:53,073
+Soon maybe it just isn't happening quick and
+it's so slow
+
+43
+00:05:57,281 --> 00:06:04,299
+This is me you know I'm saying thatIf I hit
+this now nope it's just too slow whatever
+that's fine.
+
+44
+00:06:15,159 --> 00:06:22,958
+So right now in our web applicationThis
+isn't very fun for the hero.
+
+45
+00:06:25,457 --> 00:06:30,490
+I don't really have any I can't even get
+them below 80 Health at this point it's ooh
+99
+
+46
+00:06:31,667 --> 00:06:35,739
+So ice isn't a great user experience cuz it
+doesn't seem like you'd
+
+47
+00:06:35,739 --> 00:06:39,812
+have to be the luckiest guy ever to actually
+beat him right now
+
+48
+00:06:44,439 --> 00:06:50,502
+So let's add in that a functionThat allows
+me to drink a potion.
+
+49
+00:06:52,144 --> 00:06:54,993
+And be able to heal myself for a certain
+amount
+
+50
+00:06:57,703 --> 00:07:04,008
+So before we do that let's actually create
+that within our JavaScriptOr excuse me our
+HTML.
+
+51
+00:07:06,051 --> 00:07:08,271
+So we already have our attack button here
+
+52
+00:07:17,211 --> 00:07:25,164
+So we'll just go ahead and create another
+callWe will label this one potion.
+
+53
+00:07:28,736 --> 00:07:31,563
+We'll put the drink potion function on it
+right now
+
+54
+00:07:33,344 --> 00:07:38,110
+And I want to show up right now this should
+air whenever I hit this on click right now
+
+55
+00:07:40,314 --> 00:07:43,932
+Because that drink potion function is not
+created in our JavaScript
+
+56
+00:07:45,911 --> 00:07:49,597
+Because right now we have nowhere that we're
+drinking a potion so right now I can just
+
+57
+00:07:56,020 --> 00:08:03,764
+We'll just return no for nowWe actually can
+click it. Actually it's not even do that.
+
+58
+00:08:09,137 --> 00:08:16,561
+Because we need to create that function
+within our JavaScriptSo we'll say drink
+potion.
+
+59
+00:08:20,019 --> 00:08:25,407
+And we can save thatNot from here it removes
+that air.
+
+60
+00:08:33,090 --> 00:08:37,327
+So the idea when I drink my potion we can
+have it
+
+61
+00:09:07,040 --> 00:09:09,671
+We essentially just want to increase our
+hero health
+
+62
+00:09:12,906 --> 00:09:20,821
+We're going to just do 25 so whenever I
+click that my hero Health should increase by
+25So let's do the same thing that we did
+here.
+
+63
+00:09:22,444 --> 00:09:24,226
+And draw that function up here
+
+64
+00:09:24,768 --> 00:09:31,109
+The biggest thing like the mistake we made
+earlier is it's important of the order of
+operation so I have the two attacks
+
+65
+00:09:36,574 --> 00:09:40,983
+No what am I talking aboutI'm high bro.
+
+66
+00:09:42,597 --> 00:09:45,682
+So now we made this function for drink
+potion we can go back
+
+67
+00:09:46,568 --> 00:09:54,509
+And we can read so now we create the
+functionality of the strength potion let's
+go ahead and also add
+
+68
+00:09:56,896 --> 00:10:03,564
+No I'll do make the air on purposeSo now
+this function is made for drink potion let's
+go.
+
+69
+00:10:04,119 --> 00:10:05,663
+Show it off in our
+
+70
+00:10:06,849 --> 00:10:12,589
+Web application now that we create this
+function for a drink potion let's go show
+that off in a web application
+
+71
+00:10:15,952 --> 00:10:22,293
+So we know it's going to heal me for 25 so
+let's try to hit 63 so when I drink potion
+
+72
+00:10:23,441 --> 00:10:31,063
+My health is still 63 but if I get it tag we
+can notice that my health did indeed go up
+so if I hit potion again
+
+73
+00:10:35,998 --> 00:10:41,671
+We can notice and we also go above hundred
+so that's something we're going to want to
+fix as well but that's because I draw
+function
+
+74
+00:10:43,704 --> 00:10:50,128
+Is never happening we're never drawing our
+healthSo the cool thing is we can actually
+just call that function again.
+
+75
+00:10:50,294 --> 00:10:51,940
+Within our drink potion
+
+76
+00:10:53,584 --> 00:10:58,511
+And now every time I click that drink potion
+it's going to call that Heroes health
+
+77
+00:11:01,677 --> 00:11:05,873
+But like I said there is a problem right now
+cuz my Hero's Health can go above 100 and
+
+78
+00:11:05,873 --> 00:11:10,068
+I don't want that to happen I want it my
+health to only be able to hit 100
+
+79
+00:11:16,904 --> 00:11:20,002
+So let's do the same thing that we did
+earlier with our
+
+80
+00:11:21,365 --> 00:11:28,739
+With our feelings help in here if it goes
+below zero we want to just set it back to
+zero immediately so it never really hits
+that negative
+
+81
+00:11:29,478 --> 00:11:37,033
+So let's say if our heroes health is greater
+than 100I want you just a hard reset it to
+100.
+
+82
+00:11:41,863 --> 00:11:47,016
+So now when I attack and I hit potion it's
+actually only going to ever go to 100
+
+83
+00:11:47,016 --> 00:11:52,168
+cuz the second it goes above 100 it's going
+to immediately just reset back down to 100
+
+84
+00:11:55,694 --> 00:12:01,103
+And technically there's like a super super
+millisecond where it would be technically
+125
+
+85
+00:12:01,103 --> 00:12:06,512
+but because it computers are so fast you can
+never catch that instance
+
+86
+00:12:14,307 --> 00:12:21,911
+But the only problem now with this
+applicationIs pretty much impossible to lose
+now.
+
+87
+00:12:22,495 --> 00:12:29,349
+Because every time I help get slowSo let's
+use that math random again to create some
+variety.
+
+88
+00:12:32,122 --> 00:12:37,149
+And when you do the same thing with our
+villain Health if you know Sarah as well it
+actually went below zero
+
+89
+00:12:38,546 --> 00:12:42,946
+Let's fix that and we'll add a little bit of
+Randomness to the potion as well
+
+90
+00:13:23,071 --> 00:13:28,728
+So let's go ahead and make a conditional
+here as well so we'll say ifVillain health.
+
+91
+00:13:30,094 --> 00:13:35,588
+Is less than or equal to zero hereLet's just
+make villain Health zero.
+
+92
+00:13:37,915 --> 00:13:38,634
+Awesome
+
+93
+00:13:44,885 --> 00:13:49,512
+So let's go test that out really quick and
+make sure that's working the way we want it
+to
+
+94
+00:13:52,784 --> 00:13:55,880
+Let's make sure I don't lose while testing
+
+95
+00:14:03,524 --> 00:14:10,381
+Oh it's closeOkay perfect and we did see
+that the villains Health did hit zero.
+
+96
+00:14:15,111 --> 00:14:21,440
+And while we're at it let's go ahead and add
+like a victory for when we actually defeat
+the
+
+97
+00:14:24,025 --> 00:14:30,789
+VillainSo we'll do the same thing here we'll
+go ahead and say at an alert as well.
+
+98
+00:14:40,582 --> 00:14:46,737
+So we'll reuse that our old friendly emoji
+fromCode works.
+
+99
+00:14:47,583 --> 00:14:55,091
+Coffee Co will use the tadaAnd we'll say the
+code works.
+
+100
+00:14:56,894 --> 00:15:02,416
+Crusader vanquishedThe coding virus.
+
+101
+00:15:04,412 --> 00:15:09,946
+And then we'll just say you wonAnd let's we
+get that emoji the tada. Sweet.
+
+102
+00:15:12,224 --> 00:15:14,925
+Just a little extra touch when you actually
+win
+
+103
+00:15:17,924 --> 00:15:21,447
+Great so let's go back to that drink potion
+
+104
+00:15:54,793 --> 00:15:55,648
+I'll be back
+

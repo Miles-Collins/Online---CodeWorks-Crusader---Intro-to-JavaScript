@@ -1,0 +1,682 @@
+1
+00:00:04,752 --> 00:00:10,379
+So the cool thing now is you can mess around
+with these a little bit easier without
+feeling like you're going to
+
+2
+00:00:11,603 --> 00:00:14,329
+Conflict with anything in the villain's
+health
+
+3
+00:00:19,036 --> 00:00:25,061
+I forgot to actually invoke that awesome so
+let's actually work with the hero's health
+for now
+
+4
+00:00:27,106 --> 00:00:32,862
+So we've made those changes to our Crusaders
+Health but I want to say if my crusader
+
+5
+00:00:37,075 --> 00:00:41,240
+Hero's health is less than or equal to
+zeroLet's add that.
+
+6
+00:00:42,387 --> 00:00:45,529
+Change to him let's actually change that
+image all together
+
+7
+00:00:48,120 --> 00:00:55,166
+So we already have access to our hero
+elimFrom above so let's actually say oops.
+
+8
+00:01:01,826 --> 00:01:06,496
+NoSo in this.
+
+9
+00:01:07,057 --> 00:01:12,668
+So in this if statement let's go ahead and
+go get my documentAnd we'll get element by
+ID here.
+
+10
+00:01:17,062 --> 00:01:19,572
+And let's go get the code Works crusader
+
+11
+00:01:21,701 --> 00:01:25,783
+And let's actually make sure that is correct
+cuz this is a common thing sometimes
+
+12
+00:01:25,783 --> 00:01:31,536
+you think you remember the ID so let's just
+go ahead and double click itAnd bring it
+over.
+
+13
+00:01:34,087 --> 00:01:36,883
+And on this one I'm going to call a unique
+
+14
+00:01:43,360 --> 00:01:46,175
+So now I'm going to call upon a unique
+property
+
+15
+00:01:47,171 --> 00:01:51,567
+I can access a property called classless and
+this classless if
+
+16
+00:01:51,567 --> 00:01:55,963
+I hit period again will give me all these
+different
+
+17
+00:01:59,617 --> 00:02:02,507
+Well give me all these different methods I
+can call upon
+
+18
+00:02:03,049 --> 00:02:08,742
+I can do an ad replace removing these this
+is actually targeting that exact
+
+19
+00:02:08,742 --> 00:02:14,434
+ID and accessing all the classes so this I
+want to add a class
+
+20
+00:02:15,350 --> 00:02:18,213
+In the class I want to add is going to be
+dead crusader
+
+21
+00:02:22,620 --> 00:02:30,193
+I'll show that off with a debugger as well
+what's going on hereBut first let's go
+actually create that class.
+
+22
+00:02:36,423 --> 00:02:40,688
+So we'll actually have that deck Crusader at
+the top here so we'll say dead crusader
+
+23
+00:02:45,105 --> 00:02:48,072
+And we want the content of this to be a
+
+24
+00:02:52,896 --> 00:03:00,419
+We'll just have it so the content of this
+will be image that we have overAnd then also
+add a filter.
+
+25
+00:03:01,579 --> 00:03:09,357
+Of a grayscale and I want that gray scale to
+be oneJust make sure to add our semicolons
+are awesome.
+
+26
+00:03:10,172 --> 00:03:15,390
+So now if we save all thisAnd go to our web
+application.
+
+27
+00:03:20,091 --> 00:03:24,202
+It's good work console and actually set my
+Hero's Health to one
+
+28
+00:03:31,164 --> 00:03:37,813
+So now when I hit attack my hero
+shouldPerish. And we should also hit that
+debugger.
+
+29
+00:03:40,194 --> 00:03:45,181
+Oh right it's all in the wounds man critical
+hit so I don't think I refreshed
+
+30
+00:03:47,120 --> 00:03:48,256
+So let's try it again
+
+31
+00:04:17,037 --> 00:04:23,198
+Oh
+
+32
+00:04:23,198 --> 00:04:29,359
+hero
+
+33
+00:04:29,359 --> 00:04:35,520
+health
+
+34
+00:04:59,045 --> 00:05:04,901
+So this is miles from the future and because
+of this debugger I was able to actually
+figure out
+
+35
+00:05:06,060 --> 00:05:08,181
+Hero.hero Health doesn't exist
+
+36
+00:05:09,131 --> 00:05:15,349
+So I was actually not getting the response
+that I wanted to on the web application so
+this is just
+
+37
+00:05:15,349 --> 00:05:21,567
+another showing debugging and figuring it
+out so when I had gone to zero it skipped
+over this conditional all
+
+38
+00:05:21,567 --> 00:05:27,786
+together and at that point I noticed that I
+had the wrong property in there so let's try
+this again
+
+39
+00:05:30,163 --> 00:05:37,977
+Discovered our web application refresh and
+hit that inspect toolLet's go to console and
+I'll set the hero's Health to one.
+
+40
+00:05:38,546 --> 00:05:45,731
+So now when I attackWe hit this debugger
+inside this if statement.
+
+41
+00:05:46,970 --> 00:05:50,755
+And now it's going to go over to this
+document get element by ID
+
+42
+00:05:52,339 --> 00:05:55,818
+And it's going to add that class list of
+debt crusader
+
+43
+00:06:00,699 --> 00:06:08,204
+So we get this gravestone here andI also
+want to show that off let's actually not do
+with the debugger here though.
+
+44
+00:06:12,466 --> 00:06:19,724
+So I willConsole log here this is going to
+be a little bit extra way to do this but.
+
+45
+00:06:22,520 --> 00:06:29,939
+So we'll go get this code Works crusaderIt's
+actually just. Copy and paste that.
+
+46
+00:06:34,069 --> 00:06:38,664
+And I want to show off the difference of
+before and after the hero dies
+
+47
+00:06:45,204 --> 00:06:52,364
+So let's do the same I will set his health
+to oneAnd then I will get critically hit
+again.
+
+48
+00:06:53,475 --> 00:06:56,072
+And the big thing here is if you notice
+right now
+
+49
+00:07:02,324 --> 00:07:03,905
+He's got both of them on
+
+50
+00:07:27,933 --> 00:07:28,963
+That don't make no sense
+
+51
+00:07:41,409 --> 00:07:45,848
+WhyWhy. Maybe it's happening too quick.
+
+52
+00:08:00,470 --> 00:08:01,593
+What is going on
+
+53
+00:08:07,423 --> 00:08:12,496
+That's annoyingOkay whatever.
+
+54
+00:08:16,305 --> 00:08:19,352
+So if I highlight this code Works Crusader
+right now
+
+55
+00:08:21,292 --> 00:08:26,460
+We can see and hear that right now we haveA
+class on him.
+
+56
+00:08:27,389 --> 00:08:35,314
+It's actually closes up a little bit better
+and the only class that exists on him is
+this height 75Not if I set his health to
+one.
+
+57
+00:08:37,816 --> 00:08:38,608
+And attack
+
+58
+00:08:44,577 --> 00:08:46,632
+No the coating virus actually missed
+
+59
+00:08:49,401 --> 00:08:54,849
+And now we get that console log back and we
+can see it added this new class dead
+crusader
+
+60
+00:08:58,766 --> 00:09:05,657
+Only when he his health gets blow zeros cuz
+right now is healthyIsn't below zero so it
+won't actually take effect.
+
+61
+00:09:09,375 --> 00:09:14,190
+But nowRip. We actually get that class added
+on there.
+
+62
+00:09:16,063 --> 00:09:19,464
+And that's all because of this classless
+property here
+
+63
+00:09:22,094 --> 00:09:29,089
+And because of this dot ad so if you could
+always highlight over this it will actually
+show you the MDM reference which is really
+handy
+
+64
+00:09:29,792 --> 00:09:35,029
+Like says it's just this property just
+allows for manipulation of the elements
+class content
+
+65
+00:09:35,829 --> 00:09:38,717
+And we're able to do that also because of
+the add method
+
+66
+00:09:40,273 --> 00:09:44,780
+So anything I passed through here it's going
+to add that to its class
+
+67
+00:09:58,663 --> 00:10:04,693
+So at this point we're going to do the same
+exact thing with this villainSo we'll say
+if.
+
+68
+00:10:05,936 --> 00:10:10,395
+The Honda helpIt's less than or equal to
+zero.
+
+69
+00:10:15,521 --> 00:10:22,509
+Let's go get that document the same wayAnd
+let's make sure we get the right index.
+
+70
+00:10:27,996 --> 00:10:34,414
+And we're going to do the same exact thing
+we're going to access that classless
+property and we're going to use the add
+method
+
+71
+00:10:35,058 --> 00:10:38,802
+And on this one I want to add the class of
+dead virus
+
+72
+00:10:42,724 --> 00:10:45,386
+So let's actually code out that's going to
+be
+
+73
+00:10:51,397 --> 00:10:58,426
+So for dead virus we're not going to be so
+dramatic with the gravestone he doesn't get
+his own gravestone He's the bad guy
+
+74
+00:10:59,295 --> 00:11:06,873
+We're going to actually add in that filter
+of grayscale as wellWhich should gray out
+his character.
+
+75
+00:11:07,233 --> 00:11:14,693
+And then let's also transform we're going to
+we're going to flip them upside down so
+we're going to scale on the Y axi
+
+76
+00:11:15,203 --> 00:11:18,608
+And we're going to do a negative one so
+we're going to flip it all the way around
+
+77
+00:11:19,799 --> 00:11:24,699
+If I chose the X here it would actually flip
+around the horizontal and I'll show that off
+as well
+
+78
+00:11:27,265 --> 00:11:31,685
+So if weSo if I set the villain tell to one
+now.
+
+79
+00:11:38,575 --> 00:11:41,546
+We said that to oneAnd now when I attack.
+
+80
+00:11:44,227 --> 00:11:49,095
+We get the code Works virus flipped around
+on its head and gray scaled out
+
+81
+00:11:53,309 --> 00:11:57,723
+Like I said if I would have done scale why
+or X here let's show that off instead
+
+82
+00:12:04,624 --> 00:12:09,271
+Let's set the health to oneAnd attack them.
+
+83
+00:12:10,956 --> 00:12:15,090
+He just kind of dances and turns away like
+he's going to run away
+
+84
+00:12:15,844 --> 00:12:22,752
+I don't want to make it look like he's
+running away I want to make sure it is
+implied that we have vanquished this
+baddieAnd.
+
+85
+00:12:28,464 --> 00:12:30,153
+Oh yeah there is one thing I want to show
+off
+
+86
+00:12:44,561 --> 00:12:49,398
+So as of now this application is somewhat
+difficult actually
+
+87
+00:12:51,629 --> 00:12:59,561
+Because we don't have it set up to
+accumulate potionsBecause if I don't
+actually use my potion right now and I hit
+twice.
+
+88
+00:13:01,881 --> 00:13:09,792
+I pretty much waste the potionSo we can add
+in a kind of a.
+
+89
+00:13:12,049 --> 00:13:13,161
+Dicey way
+
+90
+00:13:15,413 --> 00:13:21,324
+Making our potions kind of delayed so
+technically if I am fast enough I can
+actually click this again
+
+91
+00:13:22,900 --> 00:13:29,587
+While it's still accumulatingAnd let's do
+that by actually creating a set timeout.
+
+92
+00:13:48,951 --> 00:13:51,730
+So our main.js is actually go to our drink
+potion
+
+93
+00:13:55,943 --> 00:13:58,487
+And all this is going to be perfect the way
+it is
+
+94
+00:14:04,705 --> 00:14:10,964
+But now we're going to add a little bit of
+functionality with our set timeoutIn a set
+timeout.
+
+95
+00:14:14,521 --> 00:14:20,767
+Takes intoTakes into arguments.
+
+96
+00:14:21,468 --> 00:14:23,975
+It takes in a Timeout number
+
+97
+00:14:26,056 --> 00:14:31,379
+In the function that you want to actually
+send through it so the function will be
+first so we'll
+
+98
+00:14:31,379 --> 00:14:36,702
+actually we're going to make a health up
+function and I want this to occur after
+three seconds
+
+99
+00:14:38,405 --> 00:14:41,511
+So now I need to actually create that Health
+up
+
+100
+00:14:46,931 --> 00:14:50,759
+Cuz right now if I say this and we go over
+and try to drink our potion
+
+101
+00:14:55,486 --> 00:15:01,005
+We should encounter an areaWhoops when I
+drink my potion.
+
+102
+00:15:05,214 --> 00:15:12,461
+Oh yes this is because I just actually made
+that functionSo technically if I comment
+this out.
+
+103
+00:15:18,360 --> 00:15:23,782
+When I hit this potion I shouldIf I actually
+get a potion first.
+
+104
+00:15:37,002 --> 00:15:40,449
+Oh my goodness so let's give myself a potion
+here
+
+105
+00:15:44,355 --> 00:15:51,708
+Just get a little bit of attackWhen I click
+on this potion we get that reference air
+help is not defined.
+
+106
+00:15:54,985 --> 00:15:58,309
+I kind of skipped ahead there and I already
+made that function
+
+107
+00:15:59,539 --> 00:16:04,180
+So now we actually have a function that's
+calling to hear it's not doing anything but
+it won't air out
+
+108
+00:16:07,648 --> 00:16:13,768
+So within this health up function we want to
+still do everything that we're doing in
+pretty much right here
+
+109
+00:16:14,829 --> 00:16:16,341
+We're just going to move it down
+
+110
+00:16:18,864 --> 00:16:24,449
+We just want everything to be on a timeout
+of 3 seconds so we kind of want when you hit
+that button
+
+111
+00:16:24,933 --> 00:16:29,217
+It's not going to increase your health by 25
+until after 3 seconds
+
+112
+00:16:43,120 --> 00:16:49,918
+So let's save that and show off kind of
+what's going on thereSo like I said before.
+
+113
+00:16:51,802 --> 00:16:56,141
+If I use the health potion right now it
+wouldn't make sense because I don't have 25
+Health
+
+114
+00:16:56,141 --> 00:17:01,905
+but now I can use that health potion it's
+not going to go on for another 3 secondsAnd
+there it went.
+
+115
+00:17:03,040 --> 00:17:07,595
+So just gives the user more time to actually
+click that potion
+
+116
+00:17:15,882 --> 00:17:19,016
+So once again I get that health potion I got
+the three seconds
+
+117
+00:17:25,361 --> 00:17:32,871
+Or you can sit here and wait toIf you're
+really low. Oh dang he smoked me.
+
+118
+00:18:00,257 --> 00:18:05,088
+And that's how we can use our set timeouts
+the main thing to always remember oh sorry
+
+119
+00:18:05,637 --> 00:18:08,326
+And that's how we will be using our set
+timeout
+
+120
+00:18:10,689 --> 00:18:17,292
+The main thing to remember is that function
+needs to go in this first argument and the
+time limit and
+
+121
+00:18:17,292 --> 00:18:23,895
+once again this is in millisecond so 3,000
+milliseconds will be 3 seconds and it will
+occur after 3 seconds
+
+122
+00:18:27,066 --> 00:18:31,427
+So another cool little thing I'm just going
+to add is a page load
+
+123
+00:18:33,574 --> 00:18:39,921
+And I'll actually set this to the topSo
+function page load. And.
+
+124
+00:18:40,788 --> 00:18:44,118
+This isn't going to beThis isn't going to be
+for everyone this is just more of a.
+
+125
+00:18:47,339 --> 00:18:52,459
+Funny cool thing to add cuz I'm going to add
+thisWindow alert that I made.
+
+126
+00:18:53,105 --> 00:19:00,428
+And this is going to essentially as soon as
+the page load and I'll have it set to the
+top so I'm going to actually invoke this
+within my JavaScript
+
+127
+00:19:00,946 --> 00:19:05,558
+And since it's at the top this is going to
+happen before anything else happens within
+this project
+
+128
+00:19:15,829 --> 00:19:18,307
+So from here if I refresh my page
+
+129
+00:19:18,657 --> 00:19:25,577
+I get this alert that gives me the storyline
+of what the code Works Crusaders going to be
+
+130
+00:19:26,297 --> 00:19:31,248
+And then it's going to give me this will you
+have what it takes to Vanquish the coding
+virus maybe we'll see
+
+131
+00:19:31,563 --> 00:19:35,488
+And now you kind of get that introduction to
+that actual web application
+

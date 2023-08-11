@@ -1,0 +1,58 @@
+.the-battlefield {
+  height: 100dvh;
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/292/590/desktop-wallpaper-i-took-the-backgrounds-from-the-game-s-website-and-blew-it-up-to-wargroove.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.height-75 {
+  height: 75%;
+}
+
+.deadCrusader {
+  content: url("assets/Rip.png");
+  filter: grayscale(1);
+}
+
+.deadVirus {
+  filter: grayscale(1);
+  transform: scaleX(-1);
+}
+
+/* SECTION Text */
+
+.danger-text {
+  color: red;
+  font-weight: 800;
+  text-shadow: 0px 0px 2px white;
+}
+
+.success-text {
+  color: green;
+  font-weight: 800;
+  text-shadow: 0px 0px 2px white;
+}
+
+.header-text {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  border: 1px white dotted;
+}
+
+.light-text {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  text-decoration: underline;
+}
+
+/* SECTION Button */
+
+.btn-custom {
+  width: 95%;
+  opacity: .75;
+}
+
+.btn-custom:hover {
+  opacity: 1;
+  width: 100%;
+}

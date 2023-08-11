@@ -1,0 +1,562 @@
+1
+00:00:05,122 --> 00:00:08,380
+So now we get the code Works Crusader on our
+screen
+
+2
+00:00:09,225 --> 00:00:16,304
+And the position that we want them to be in
+awesome so now we just need to go back to
+our HTML and actually add in his name
+beneath
+
+3
+00:00:19,792 --> 00:00:23,760
+So now we actually need to go back to our
+HTML and add his name beneath
+
+4
+00:00:34,214 --> 00:00:41,289
+So from here let's actually go underneath
+this image check and we'll add in our own P
+tag and we're just going to say the code
+Works Crusader here
+
+5
+00:00:43,162 --> 00:00:51,114
+We're not doing anything too fancy here we
+just want to make the font sizeEssentially
+an H1 and we also want to add in this light
+text.
+
+6
+00:00:52,055 --> 00:00:55,224
+So let's go to our Styles at CSS and create
+that class
+
+7
+00:01:02,860 --> 00:01:09,217
+Sooner Styles at CSS let's just go ahead and
+create light textYou scroll down here.
+
+8
+00:01:10,545 --> 00:01:18,081
+And this is going to be obviouslyA light
+color. But we're going to want to make sure
+we add in that text shadow.
+
+9
+00:01:19,961 --> 00:01:24,126
+When I use the zero pixel zero pixel 5 pixel
+and we're going to make it black
+
+10
+00:01:26,624 --> 00:01:32,422
+After this we're going to add in our text
+decorationYou can get dotted.
+
+11
+00:01:33,213 --> 00:01:38,326
+- double line through underlineAnd that's
+which one we're going to choose here we're
+going to get that underline.
+
+12
+00:01:39,612 --> 00:01:46,284
+So save that and head to our applicationNow
+we get the.
+
+13
+00:01:48,076 --> 00:01:51,730
+World renowned coder the code Works Crusader
+over here
+
+14
+00:01:59,293 --> 00:02:06,906
+And at this point I'm going to come back to
+the buttons but I kind of want to work on
+the boss now just to get that visually
+appealing battle going on
+
+15
+00:02:08,691 --> 00:02:15,770
+And I can always recommend Also let's go
+ahead and test this outSo our health is
+still going down properly awesome.
+
+16
+00:02:18,276 --> 00:02:23,023
+Sweet so let's go actuallyLet's go get our
+villain over there on the right.
+
+17
+00:02:28,202 --> 00:02:34,281
+So let's head down to our villainAnd we'll
+start the same way we did the other one so
+let's just use text Center.
+
+18
+00:02:35,296 --> 00:02:37,893
+And then we'll say Crusader height here as
+well
+
+19
+00:03:07,344 --> 00:03:11,462
+But now reading the state high on the
+villain I kind of want to change the name
+
+20
+00:03:13,009 --> 00:03:19,805
+So let's actually change this Crusader
+heightWe'll change this to height.
+
+21
+00:03:20,612 --> 00:03:25,711
+75 I don't thinkSo we'll change this to
+height 75.
+
+22
+00:03:27,006 --> 00:03:31,081
+And let's just actually go up here and
+change this to height 75 as well
+
+23
+00:03:47,673 --> 00:03:52,974
+Just to add more reusability because
+technically at that point
+
+24
+00:03:53,320 --> 00:04:00,381
+Is it fine to continue using a class name
+that isn't implied for that section 100%
+that's okay but
+
+25
+00:04:00,381 --> 00:04:07,443
+I just want to keep some reusability dude I
+should have originally started with like
+something height 75 but
+
+26
+00:04:11,199 --> 00:04:13,700
+From here we can go down to our next row
+
+27
+00:04:14,758 --> 00:04:22,669
+And this is going to look very similar to
+our hero we'll just do just by content
+Center for that as wellWill change this
+column here to a call 10.
+
+28
+00:04:24,206 --> 00:04:30,208
+And from here we will change us from the
+villains height to the coding virusesHealth.
+
+29
+00:04:34,920 --> 00:04:41,711
+And from here we'll add that font size to
+this as wellLet's make this a font size 3.
+And.
+
+30
+00:04:41,654 --> 00:04:44,943
+Three and we'll also add in that custom
+header text on it as well
+
+31
+00:04:52,397 --> 00:04:54,885
+And I am going to spice it up here
+
+32
+00:04:55,829 --> 00:05:00,735
+And change this to 250 we're going to make
+him a little bit stronger I feel like the
+game was a little too easy
+
+33
+00:05:01,225 --> 00:05:09,060
+So if we change it to 250 here cuz this is
+going to be the starting point we need to
+make sure we go to our JavaScript
+
+34
+00:05:10,845 --> 00:05:15,739
+Unless actually set the villains healthTo
+250 here.
+
+35
+00:05:20,941 --> 00:05:28,384
+And will probably have some problemsLater on
+as well and I can show you how we can clean
+that up to make this more reusable as well.
+
+36
+00:05:32,835 --> 00:05:38,134
+But we'll do that after we get this image on
+here so we'll go to this row like I said
+make sure we'll
+
+37
+00:05:38,134 --> 00:05:43,432
+go outside this room and we'll do the same
+thing with this we'll create an image with
+the source of our assets
+
+38
+00:05:44,070 --> 00:05:51,242
+And we'll get the coding virus in hereAnd
+we'll do an all tag of.
+
+39
+00:05:52,337 --> 00:05:58,928
+Coding virus bossWill add a title of. The
+coding virus.
+
+40
+00:06:02,993 --> 00:06:09,225
+And I'll also add an ID here for coding
+virus as well if we want to like say do any
+cool stuff later on we'll
+
+41
+00:06:09,225 --> 00:06:15,458
+cuz I plan on adding some extra CSS here at
+the end once we kind of get this running the
+way we want it to
+
+42
+00:06:19,130 --> 00:06:24,512
+And lastly for this guy will add that final
+P tag with just his name so we'll say the
+coding virus
+
+43
+00:06:30,384 --> 00:06:35,596
+And will give it a font size of one and
+we'll give it that light text as well so
+let's go take a look at this
+
+44
+00:06:39,479 --> 00:06:40,861
+That's a big dude
+
+45
+00:06:45,665 --> 00:06:49,310
+So now I got the coding Mega virus
+apparently
+
+46
+00:06:49,850 --> 00:06:57,379
+Over here just he actually looks kind of
+cool but I'm getting some side school here
+so it's just way off the screenDoing his own
+thing.
+
+47
+00:06:59,197 --> 00:07:03,569
+And that's because I forgot to put that
+height 75 on them and
+
+48
+00:07:03,569 --> 00:07:07,941
+he's just going to his native height and
+he's going to he's massive
+
+49
+00:07:10,334 --> 00:07:16,558
+So from here I forgot to add that class like
+we had on our hero and that's going to be
+that height 75
+
+50
+00:07:21,889 --> 00:07:25,040
+All right now that looks like a little bit
+more achievable
+
+51
+00:07:26,312 --> 00:07:32,069
+So now we have our code representer on the
+left and our coding virus on the right and
+you'll notice though when I attack
+
+52
+00:07:37,914 --> 00:07:40,408
+Everything is working the way I wanted to
+
+53
+00:07:44,880 --> 00:07:51,173
+And you can see these alerts in like said be
+a little obnoxious sometimes but we get
+
+54
+00:07:56,432 --> 00:08:00,371
+Leave I wanted to skip all the clickingYeah
+we'll just.
+
+55
+00:08:01,389 --> 00:08:09,251
+At this point we got our coding virus on the
+right or hero on the leftAll we have left is
+to get these buttons looking the way we
+want.
+
+56
+00:08:10,189 --> 00:08:16,550
+All we need to do all that's left is to get
+these buttons to look the wayHow do I mess
+this up twice.
+
+57
+00:08:18,075 --> 00:08:23,408
+All that's left to do is get these buns to
+look the same way as they did in that
+reference project
+
+58
+00:08:29,537 --> 00:08:37,373
+So let's now go to our buttonWe can already
+have our own click on here and for both of
+them in the type button which is awesome.
+
+59
+00:08:39,545 --> 00:08:45,427
+So from here we'll actually take off this
+BTN outline dark and we'll just leave the
+BTN on both of them
+
+60
+00:08:59,046 --> 00:09:01,493
+And from here I'm going to add an image tag
+
+61
+00:09:03,054 --> 00:09:08,573
+And the source of that image is going to be
+once again in our assets and where I'm going
+to get the attack PNG
+
+62
+00:09:10,228 --> 00:09:14,018
+And my ALT will beAttacked.
+
+63
+00:09:15,805 --> 00:09:21,318
+And I'm going to sign a title to this as
+well and this is going to be the attack
+button
+
+64
+00:09:26,365 --> 00:09:30,763
+It should figure it out based off this P tag
+kind of being the identifier for this button
+but
+
+65
+00:09:33,608 --> 00:09:37,685
+Worst case scenario you just spent a second
+putting this title in but
+
+66
+00:09:37,685 --> 00:09:41,761
+make sure we always have these all tags in
+once again for accessibility
+
+67
+00:09:45,145 --> 00:09:51,016
+And on this image I want to add a classAnd
+I'm going to use that image food class.
+
+68
+00:09:53,108 --> 00:09:56,662
+I'm going to add in a custom CSS class of
+attack Button as well
+
+69
+00:10:08,617 --> 00:10:16,333
+So down on the drink potion we're going to
+do the same exact thing we're going to
+Target that assets and we're going to Target
+my
+
+70
+00:10:18,127 --> 00:10:20,037
+Magic transparent potion
+
+71
+00:10:26,109 --> 00:10:31,339
+And then we'll have our drink potion and
+then I'll add in the same title for drink
+potion button
+
+72
+00:10:37,236 --> 00:10:43,328
+And I'll add some and I'll add in some
+custom CSS classes for this as well
+
+73
+00:10:50,825 --> 00:10:55,350
+And I'm going to reuse that attack button so
+let's just go ahead and change this from a
+tag button now
+
+74
+00:11:09,726 --> 00:11:11,864
+Let me ask you to look what my buns doing
+
+75
+00:11:41,504 --> 00:11:45,632
+And we'll just we'll actually tap into our
+same styling as
+
+76
+00:11:45,632 --> 00:11:49,759
+bootstrap so I'll use BTN and then I'll just
+say BTN
+
+77
+00:11:50,545 --> 00:11:54,033
+Custom let's just say custom for now
+something simple
+
+78
+00:11:55,282 --> 00:12:01,083
+Since we're going to use on both of these so
+let's go ahead and go to our CSS and
+actually style this button custom
+
+79
+00:12:02,248 --> 00:12:04,621
+So I'll make a new section for this and I'll
+say buttons
+
+80
+00:12:13,850 --> 00:12:15,986
+And let's do our BTN custom here
+
+81
+00:12:26,221 --> 00:12:34,186
+And what we want our fun custom to do is
+we're going to set this to a custom width of
+95%And we're going to make this have a.
+
+82
+00:12:34,831 --> 00:12:37,095
+75% opacity
+
+83
+00:12:40,350 --> 00:12:42,915
+And when I go to hover on this B10
+
+84
+00:12:45,013 --> 00:12:50,046
+I wanted to then increase its opacity to one
+so we want to make it completely visible
+
+85
+00:12:50,786 --> 00:12:57,374
+And I'm going to set the width to 100 so
+this is going to give it an effect of making
+it grow and become
+
+86
+00:12:58,323 --> 00:13:06,001
+More obvious as wellSo save everything and
+let's head to our web application.
+
+87
+00:13:11,865 --> 00:13:15,201
+So just like that we now have our our
+buttons here
+
+88
+00:13:18,617 --> 00:13:25,899
+So when I hover over this attack like I said
+it starts kind of a little bit barely opaque
+and when I actually highlight over it
+
+89
+00:13:25,899 --> 00:13:33,180
+makes it fully opaque and it kind of gives
+it that slight grow as well just because I'm
+increasing the width from 95 to 100
+
+90
+00:13:34,009 --> 00:13:36,928
+And the same effect works on this potion
+down here as well
+
+91
+00:13:46,775 --> 00:13:53,919
+So very cool at this pointYou can call it
+good and you could actually just finish this
+project but from.
+
+92
+00:13:53,919 --> 00:14:01,878
+here we're going to add some other cool
+things we can do with our JavaScriptLike I
+mentioned earlier I added those.
+
+93
+00:14:00,851 --> 00:14:03,847
+I added those IDs to the image tags
+
+94
+00:14:04,884 --> 00:14:09,488
+And at this point I want to make it so when
+my heroes Health hits zero
+
+95
+00:14:10,565 --> 00:14:13,225
+I want to add some sort of feature that
+
+96
+00:14:14,210 --> 00:14:22,149
+Makes them grayed out or I can even change
+this to possibly like a giant tombstoneAnd I
+can do the same with the virus as well.
+
+97
+00:14:29,944 --> 00:14:31,128
+I don't like that though
+
+98
+00:14:58,174 --> 00:15:01,422
+So from here we can actually let's close up
+some of this stuff here
+
+99
+00:15:03,303 --> 00:15:06,460
+We're going to go into our draw Health
+function
+
+100
+00:15:37,033 --> 00:15:44,612
+And from here we can even take this a step
+furtherAnd we can divvy out this so we can
+actually say do this as draw hero.
+
+101
+00:15:46,222 --> 00:15:49,858
+And we can make another function for Dylan
+as well
+
+102
+00:15:55,580 --> 00:15:59,524
+We'll actually stabilize draw hero health
+and draw villain health
+
+103
+00:16:02,151 --> 00:16:04,620
+And let's actually just go ahead and cut
+this up here
+
+104
+00:16:09,128 --> 00:16:10,855
+And then we'll do the same here
+
+105
+00:16:14,445 --> 00:16:18,076
+And then for our draw Health at this point
+we can just call those in here
+

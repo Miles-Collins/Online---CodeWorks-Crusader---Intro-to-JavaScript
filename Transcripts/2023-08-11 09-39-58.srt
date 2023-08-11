@@ -1,0 +1,503 @@
+1
+00:00:16,904 --> 00:00:21,676
+So let's start with creating an arrayAnd
+we'll name this array here animals.
+
+2
+00:00:24,044 --> 00:00:29,529
+And in this array we're going to take in
+multiple stringsAnd the first string will be
+bare.
+
+3
+00:00:30,403 --> 00:00:37,312
+The second string will be lyingWill add in a
+tiger and lastly let's add in an elephant.
+
+4
+00:00:47,072 --> 00:00:50,798
+And the important thing to understand here
+is with a raise
+
+5
+00:00:52,430 --> 00:00:55,944
+Each spot is indicated by index
+
+6
+00:00:56,411 --> 00:01:02,185
+So the Bears at the index of zero lion is at
+the index of one
+
+7
+00:01:02,935 --> 00:01:04,535
+Two then lastly three
+
+8
+00:01:05,563 --> 00:01:13,545
+So normally you would think bear would be
+one line would be two tiger would be three
+and so on so forth but the big thing to
+remember is it always starts at zero
+
+9
+00:01:17,155 --> 00:01:24,852
+And we can demonstrate this by console
+loggingAnimals.
+
+10
+00:01:25,272 --> 00:01:27,610
+And we can use this square bracket
+
+11
+00:01:31,989 --> 00:01:37,118
+To indicate a specific index within this
+array so if I'll hit two
+
+12
+00:01:40,272 --> 00:01:48,188
+I'll say expected outputShould be tiger I
+should get this in my console.
+
+13
+00:01:49,038 --> 00:01:55,323
+The big thing to understand is we're not
+going to get line here like I said we should
+get tiger just because
+
+14
+00:01:55,323 --> 00:02:01,609
+of how indexes work in arrays a confusing
+thing to remember those eventually will get
+into getting the length of an array
+
+15
+00:02:01,609 --> 00:02:07,895
+and that will be actually one two three and
+four but for now just remember the index
+always starts at zero
+
+16
+00:02:10,287 --> 00:02:17,752
+So if we save this and go to our
+applicationAnd if I actually serve it up.
+
+17
+00:02:26,348 --> 00:02:31,961
+SerpentSerpent.
+
+18
+00:02:33,850 --> 00:02:34,728
+Simple syrup
+
+19
+00:02:56,606 --> 00:03:00,999
+And in our console we get tighterPerfect.
+
+20
+00:03:07,901 --> 00:03:13,908
+They'll be more ways as we go throughout
+this week to pull from the certain index
+using four Loops for each Loops
+
+21
+00:03:13,908 --> 00:03:19,914
+but for now the biggest thing I want you to
+understand just make sure you can Target the
+array of animals
+
+22
+00:03:21,178 --> 00:03:25,637
+And then pick out the exact index by
+indicating that index here
+
+23
+00:03:31,276 --> 00:03:39,000
+Awesome not from here let's go ahead
+andActually make a variable out of it so
+let's say let lion.
+
+24
+00:03:40,211 --> 00:03:44,970
+Equals animalsAnd lie if we check the our.
+
+25
+00:03:45,620 --> 00:03:48,558
+Notes appear should be at the end of one
+
+26
+00:03:52,805 --> 00:03:58,371
+So this will allow us to assign create
+objects if you will from
+
+27
+00:03:59,330 --> 00:04:00,974
+Objects within an array
+
+28
+00:04:22,149 --> 00:04:25,363
+I'm just thinking about what if I don't
+think I'm going to show anything else
+
+29
+00:04:31,951 --> 00:04:34,837
+So throughout this week we'll be going over
+
+30
+00:04:35,583 --> 00:04:42,191
+Throughout this week we'll go over other
+methods we can have on an array such as
+usingFilters.finds.
+
+31
+00:04:43,137 --> 00:04:50,148
+Even using push pop shift and unshiftLike I
+said we'll use these later on in this week.
+
+32
+00:04:52,466 --> 00:04:57,294
+So you can get a better understanding of
+what's going onWith the raise.
+
+33
+00:05:06,951 --> 00:05:14,766
+Another thing I would do want to show off
+though is a raise can beDifferent. With what
+information you're passing through.
+
+34
+00:05:15,617 --> 00:05:21,526
+So I can do a string for my first one I can
+have a string again for my second spot
+
+35
+00:05:22,380 --> 00:05:29,202
+I can have a number of bull I can have new
+null and defined and even not a number and
+all
+
+36
+00:05:29,202 --> 00:05:36,024
+these are acceptable in this array and you
+can always have a blend of objects within
+your array as well
+
+37
+00:05:49,215 --> 00:05:57,169
+So let's go ahead and console log this types
+array right nowWill say my types array.
+
+38
+00:05:58,820 --> 00:06:00,602
+It's actually not make that all one word
+
+39
+00:06:07,758 --> 00:06:09,348
+And this should output
+
+40
+00:06:16,968 --> 00:06:22,361
+And this should outputThis object from
+above.
+
+41
+00:06:27,925 --> 00:06:31,539
+So if we go back to our application and look
+at this console log
+
+42
+00:06:35,484 --> 00:06:43,410
+We see we get this arrayIt's like I said the
+index starts at zero and we see we get that
+first.
+
+43
+00:06:43,410 --> 00:06:47,537
+last 77 true null and so on and so forth we
+get the length of seven
+
+44
+00:06:53,080 --> 00:06:56,717
+Sorry I didn't mean to do that actuallyLet's
+go back.
+
+45
+00:07:07,654 --> 00:07:13,662
+We can also create an object
+
+46
+00:07:16,712 --> 00:07:22,186
+With an array in itAnd I'll show you we can
+also add this object to an array.
+
+47
+00:07:23,840 --> 00:07:31,019
+So we'll say the same thing we'll have
+animalsThis will have a bear a bird. B.
+
+48
+00:07:31,372 --> 00:07:36,816
+Let's keep it what's another good B animalA
+brontosaurus no.
+
+49
+00:07:45,180 --> 00:07:51,854
+Dang Zack what's upBB. Bear B. Bird.
+
+50
+00:07:53,839 --> 00:07:54,519
+Bunny
+
+51
+00:07:59,161 --> 00:08:02,465
+And we'll keep with the B theme and we'll
+just have this this will be a bunny
+
+52
+00:08:06,039 --> 00:08:13,455
+Next I'll put a bull on this object we're
+just going to ask pretty much can it Fly and
+we'll set it to false to start
+
+53
+00:08:15,423 --> 00:08:21,485
+Can it swimWe'll give it just a no.
+
+54
+00:08:22,695 --> 00:08:26,945
+And can it bearI'll leave that at zero.
+
+55
+00:08:31,164 --> 00:08:37,803
+The cool thing we can do now is I can
+actually access that my types arrayTop push.
+
+56
+00:08:38,623 --> 00:08:41,492
+And we can actually push that Alpha object
+into it
+
+57
+00:08:54,259 --> 00:09:01,587
+Don't put this in the video I'm actually
+testing something I'm pretty sure it
+shouldn't come backWell might actually.
+
+58
+00:09:01,956 --> 00:09:08,448
+Yeah I was thinking of filters sometimes
+when you filter it won't you have to return
+the rate itself
+
+59
+00:09:17,882 --> 00:09:24,329
+So if we console log this array again
+soAgain so we'll say. My types array.
+
+60
+00:09:27,123 --> 00:09:28,441
+With Alpha object
+
+61
+00:09:34,280 --> 00:09:41,919
+We can seeWe should be able to see that new
+object in that same array from before.
+
+62
+00:09:43,899 --> 00:09:47,859
+So it's refresh and we can already notice we
+have eight items in this array
+
+63
+00:09:48,712 --> 00:09:56,434
+And we'll see we have this last object here
+as wellWe can actually open this up and we
+can get another animals right here as well.
+
+64
+00:09:56,836 --> 00:10:00,060
+With all the strings in itPerfect.
+
+65
+00:10:20,797 --> 00:10:24,191
+The last thing I'm going to cover is
+actually going to be PEMDAS
+
+66
+00:10:29,900 --> 00:10:34,491
+I should really say the last thing I'm going
+to cover before we switch over to the actual
+
+67
+00:10:35,270 --> 00:10:40,223
+Web application be building out as I'm going
+to go over PEMDAS so the classic
+
+68
+00:10:43,000 --> 00:10:48,675
+ParenthesesExponents.
+
+69
+00:10:50,258 --> 00:10:56,798
+MultiplicationVision Edition.
+
+70
+00:10:57,868 --> 00:11:01,559
+SubtractionWe all remember this.
+
+71
+00:11:03,304 --> 00:11:08,402
+In the rule the same rules apply here in
+coding so if you're ever going to make it if
+statement
+
+72
+00:11:09,599 --> 00:11:17,510
+Something like this and you want to make
+sureOne of the numbers so we want to make
+sure x divided by.
+
+73
+00:11:18,017 --> 00:11:25,218
+FourBefore we want to do 5 / 4 we can do
+that parentheses and say four times three.
+
+74
+00:11:29,178 --> 00:11:36,716
+Maybe we can make sure to use ourPlus three.
+
+75
+00:11:39,621 --> 00:11:43,715
+And we'll say is greater thanTwo.
+
+76
+00:11:49,495 --> 00:11:57,120
+Will just console log PEMDASI'm not sure if
+this is going to be.
+
+77
+00:11:57,899 --> 00:12:02,324
+Greater than twoOh yeah I should be for sure
+plus three.
+
+78
+00:12:04,222 --> 00:12:08,901
+So we do get that console log of PEMDASAnd
+it's just.
+
+79
+00:12:12,189 --> 00:12:20,178
+And it's going to be similar to the same
+wayBack in high school with or middle school
+will do the four times three first.
+
+80
+00:12:20,623 --> 00:12:28,136
+And then after that we'll do 5 / 12And then
+after that we'll do the.
+
+81
+00:12:44,217 --> 00:12:44,889
+Sorry
+
+82
+00:12:52,835 --> 00:12:57,886
+And then we'll take theValue from that and
+just add it to three.
+
+83
+00:13:12,910 --> 00:13:15,669
+Let me just redo thatI was distracted.
+
+84
+00:13:16,719 --> 00:13:24,146
+So the first thing we're going to do here is
+have the four times three so that equals 12
+and then we're going to take 5 / 12
+
+85
+00:13:24,638 --> 00:13:28,716
+And then add 3 to itAnd this is always.
+
+86
+00:13:30,133 --> 00:13:36,778
+And it's important to always remember these
+order of operations so you don't getDo
+something where.
+
+87
+00:13:37,740 --> 00:13:42,911
+We'll take 5 / 4Actually sorry.
+
+88
+00:13:45,839 --> 00:13:51,976
+This time put that first so we'll do five
+divide by four times three plus three is
+greater than two
+
+89
+00:15:59,238 --> 00:16:06,705
+Why confused by the second one so much
+higherCuz it's.
+
+90
+00:16:12,227 --> 00:16:19,613
+So if I console log
+
+91
+00:16:19,613 --> 00:16:27,000
+both these in here so
+
+92
+00:16:27,000 --> 00:16:34,386
+if I'm just going to
+
+93
+00:16:34,386 --> 00:16:41,772
+copy and paste this
+
+94
+00:16:45,587 --> 00:16:53,082
+Let's see if we get the same valuesAnd our
+console log.
+
+95
+00:16:55,407 --> 00:17:02,573
+So let's save thatLet's refresh our page.
+
+96
+00:17:03,400 --> 00:17:08,797
+And we notice on the top when we get 3.4 and
+on the second one we get 6.75
+
+97
+00:17:11,530 --> 00:17:12,831
+And that's just because
+
+98
+00:17:14,357 --> 00:17:20,359
+This bottom one actually my intellisense
+went ahead and changed a little bit but it's
+not respecting
+
+99
+00:17:21,780 --> 00:17:28,272
+These parentheses cuz they don't exist so
+it's going to take 5 / 4 and then take the
+remainder of that and time multiply it
+
+100
+00:17:28,272 --> 00:17:34,764
+by 3 and then just add it to three instead
+of actually taking this multiplication of
+four times three first on this top one
+
+101
+00:17:35,893 --> 00:17:40,170
+So just being very mindful that when you're
+creating conditions or
+
+102
+00:17:45,886 --> 00:17:51,676
+Trying to create functionality trying to
+create functionality within your project
+
